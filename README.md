@@ -17,6 +17,10 @@
 
 - ⚡ Fun fact **I think I can make jokes.**
 
+[![Rakshit-gen's GitHub | Stats](https://stats.quine.sh/Rakshit-gen/github?theme=dark)](http://localhost:3000?utm_source=widgets&utm_campaign=Rakshit-gen)
+
+[![Rakshit-gen's GitHub | Languages Over Time](https://stats.quine.sh/Rakshit-gen/languages-over-time?theme=dark)](http://localhost:3000?utm_source=widgets&utm_campaign=Rakshit-gen)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/rakshit sisodiya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="rakshit sisodiya" height="30" width="40" /></a>
