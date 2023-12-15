@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rakshit-gen&label=Profile%20views&color=0e75b6&style=flat" alt="rakshit-gen" /> </p>
 
-- 🔭 I’m currently working on **Keeper-App**
+- 🔭 I’m currently working on **API Integration with NextJs**
 
 - 🌱 I’m currently learning **ReactJs, NextJs and Django**
 
