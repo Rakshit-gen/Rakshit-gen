@@ -13,8 +13,6 @@
 
 - 📫 How to reach me **sisodiarakshit456@gmail.com**
 
-- 📄 Know about my experiences [https://publuu.com/flip-book/263856/620483](https://publuu.com/flip-book/263856/620483)
-
 - ⚡ Fun fact **I think I can make jokes.**
 
 [![Rakshit-gen's GitHub | Stats](https://stats.quine.sh/Rakshit-gen/github?theme=dark)](http://localhost:3000?utm_source=widgets&utm_campaign=Rakshit-gen)
