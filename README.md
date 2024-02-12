@@ -9,7 +9,7 @@
 
 - 👨‍💻 All of my projects are available at [https://rakshit-dev-portfolio.netlify.app/](https://rakshit-dev-portfolio.netlify.app/)
 
-- 💬 Ask me about **Python, NodeJs and DSA**
+- 💬 Ask me about **Python, ReactJs and DSA**
 
 - 📫 How to reach me **sisodiarakshit456@gmail.com**
 
