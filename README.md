@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Docker and Azure**
 
-- 👨‍💻 All of my projects are available at [https://rakshit-dev-portfolio.netlify.app/](https://rakshit-dev-portfolio.netlify.app/)
+- 👨‍💻 All of my projects are available at [https://bento.me/rakshit-sisodiya](https://bento.me/rakshit-sisodiya)
 
 - 💬 Ask me about **Python, ReactJs and DSA**
 
