@@ -6,9 +6,12 @@
 
 ```python
 def SoftwareDeveloper():
-    Name=Rakshit
-    Passion=Software Development
-    
+    name=Rakshit
+    passion=Software Development
+    while GoalNotAchieved():
+        code()
+    else:
+        codemore()
 ```
 
 - 🔭 I’m currently working on **AI integration with Nextjs**
