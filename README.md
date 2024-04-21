@@ -7,7 +7,7 @@
 ```python
 def SoftwareDeveloper():
     name=Rakshit
-    passion=Software Development
+    passion=Learning_New_Things()
     while GoalNotAchieved():
         code()
     else:
