@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **AI integration with Nextjs**
 
-- 🌱 I’m currently learning **Docker and Azure**
+- 🌱 I’m currently learning **Azure**
 
 - 👨‍💻 All of my projects are available at [https://bento.me/rakshit-sisodiya](https://bento.me/rakshit-sisodiya)
 
