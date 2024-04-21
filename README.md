@@ -26,6 +26,8 @@ def SoftwareDeveloper():
 
 - ⚡ Fun fact **I think I can make jokes.**
 
+- 🤖 Solved **500+ DSA Questions** across multiple coding platforms. 
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Rakshit-gen" alt="Rakshit-gen" /></a></p>
 
 <h3 align="left">Connect with me:</h3>
