@@ -1,6 +1,8 @@
 # 💫 About Me:
 🔭 I’m currently working on **Open Source Contributions for GSSoC '24**<br><br>- 🌱 I’m currently learning **Azure**<br><br>- 👨‍💻 All of my projects are available at [https://bento.me/rakshit-sisodiya](https://bento.me/rakshit-sisodiya)<br><br>- 💬 Ask me about **Python, ReactJs and DSA**<br><br>- 📫 How to reach me **sisodiarakshit456@gmail.com**<br><br>- 🤖 Solved **500+ DSA Questions** across multiple coding platforms.<br>
 
+---
+[![](https://visitcount.itsvg.in/api?id=Rakshit-gen&icon=0&color=3)](https://visitcount.itsvg.in)
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/rakshit-sisodiya/) 
@@ -19,7 +21,6 @@
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 
----
-[![](https://visitcount.itsvg.in/api?id=Rakshit-gen&icon=0&color=3)](https://visitcount.itsvg.in)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
