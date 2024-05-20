@@ -1,5 +1,5 @@
 # 💫 About Me:
--🔭 I’m currently working on **Next.js**<br><br>- 🌱 I’m currently learning **Cloud Computing**<br><br>- 👨‍💻 All of my projects are available at [https://bento.me/rakshit-sisodiya](https://bento.me/rakshit-sisodiya)<br><br>- 💬 Ask me about **Python, ReactJs and DSA**<br><br>- 📫 How to reach me **sisodiarakshit456@gmail.com**<br><br>- 🤖 Solved **600+ DSA Questions** across multiple coding platforms.<br><br> -🌟Fun Fact - Making jokes is my Coping Mechanism. <br>
+-🔭 I’m currently working on **Next.js**<br><br>- 🌱 I’m currently learning **Cloud Computing**<br><br>- 👨‍💻 All of my projects are available at [https://bento.me/rakshit-sisodiya](https://bento.me/rakshit-sisodiya)<br><br>- 💬 Ask me about **Python, ReactJs and DSA**<br><br>- 📫 How to reach me **sisodiarakshit456@gmail.com**<br><br>- 🤖 Solved **600+ DSA Questions** across multiple coding platforms.<br><br> -🌟Fun Fact - Making Jokes is my Coping Mechanism. <br>
 
 ---
 
