@@ -1,5 +1,5 @@
 # 💫 About Me:
--🔭 I’m currently working with <b>Next.js</b><br /><br />- 🌱 I’m currently learning <b>Rust</b><br><br>- 👨‍💻 All of my projects are available at [Portfolio](https://rakshit-portfolio-one.vercel.app/).<br /><br />- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me sisodiarakshit456@gmail.com<br /><br />- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br>
+-🔭 I’m currently working with <b>Next.js</b><br /><br />- 🌱 I’m currently learning <b>Rust</b><br /><br>- 👨‍💻 All of my projects are available at [Portfolio](https://rakshit-portfolio-one.vercel.app/).<br /><br />- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me sisodiarakshit456@gmail.com<br /><br />- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br>
 
 
 ## 🌐 Socials:
