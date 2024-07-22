@@ -19,7 +19,7 @@ class SoftwareDeveloper:
 me = SoftwareDeveloper()
 me.hey()
 ```
-<img src='https://tenor.com/view/thank-you-come-again-the-simpsons-homer-simpson-apu-marge-simpsons-gif-20386138' alt='Welcome'>
+![](https://tenor.com/view/thank-you-come-again-the-simpsons-homer-simpson-apu-marge-simpsons-gif-20386138)
 
 
 # 💫 About Me:
