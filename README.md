@@ -12,17 +12,12 @@ class SoftwareDeveloper:
             "Website": "https://rakshit-portfolio-one.vercel.app/",
         }
 
-    def say_hi(self):
-        print(f"Hi, I'm {self.name}, a {self.role} based in {self.location}.")
-        print("Skills: " + ", ".join(self.skills))
-        print("Connect with me:")
-        for platform, url in self.social_links.items():
-            print(f"{platform}: {url}")
-        print("Thanks for dropping by, hope you find some of my work interesting.")
+    def hey(self):
+        print("Welcome visitor, Do look at my work and tell me about it!.")
 
 
 me = SoftwareDeveloper()
-me.say_hi()
+me.hey()
 ```
 
 # 💫 About Me:
