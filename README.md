@@ -19,6 +19,8 @@ class SoftwareDeveloper:
 me = SoftwareDeveloper()
 me.hey()
 ```
+<div class="tenor-gif-embed" data-postid="20386138" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/thank-you-come-again-the-simpsons-homer-simpson-apu-marge-simpsons-gif-20386138">Thank You Come Again The Simpsons GIF</a>from <a href="https://tenor.com/search/thank+you+come+again-gifs">Thank You Come Again GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
 
 # 💫 About Me:
 -🔭 I’m currently working on <b>[Slanine](https://slanine-s4bi.vercel.app/)</b><br /><br>- 🌱 I’m currently learning <b>Rust</b><br><br>- 👨‍💻 All of my projects are available at [Portfolio](https://rakshit-portfolio-one.vercel.app/).<br><br>- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me sisodiarakshit456@gmail.com<br><br>- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br><br>
