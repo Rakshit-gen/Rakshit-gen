@@ -4,12 +4,12 @@ class SoftwareDeveloper:
     def __init__(self):
         self.name = "Rakshit Sisodiya"
         self.role = "Software Developer💻"
-        self.skills = ["Python", "JavaScript", "HTML", "CSS", "React", "Node.js", "Django"]
+        self.skills = ["Python", "JavaScript", "TypeScript", "Next.js", "React", "Node.js", "MongoDB"]
         self.location = "India"
         self.social_links = {
             "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
-            "Twitter": "https://twitter.com/your_twitter_handle",
-            "Website": "https://yourwebsite.com",
+            "Twitter": "https://twitter.com/rakshit_sisodia",
+            "Website": "https://rakshit-portfolio-one.vercel.app/",
         }
 
     def say_hi(self):
