@@ -1,3 +1,31 @@
+'''
+class SoftwareDeveloper:
+
+    def __init__(self):
+        self.name = "Rakshit Sisodiya"
+        self.role = "Software Developer💻"
+        self.skills = ["Python", "JavaScript", "HTML", "CSS", "React", "Node.js", "Django"]
+        self.location = "India"
+        self.social_links = {
+            "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
+            "Twitter": "https://twitter.com/your_twitter_handle",
+            "Website": "https://yourwebsite.com",
+        }
+
+    def say_hi(self):
+        print(f"Hi, I'm {self.name}, a {self.role} based in {self.location}.")
+        print("Skills: " + ", ".join(self.skills))
+        print("Connect with me:")
+        for platform, url in self.social_links.items():
+            print(f"{platform}: {url}")
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareDeveloper()
+me.say_hi()
+
+'''
+
 # 💫 About Me:
 -🔭 I’m currently working on <b>[Slanine](https://slanine-s4bi.vercel.app/)</b><br /><br>- 🌱 I’m currently learning <b>Rust</b><br><br>- 👨‍💻 All of my projects are available at [Portfolio](https://rakshit-portfolio-one.vercel.app/).<br><br>- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me sisodiarakshit456@gmail.com<br><br>- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br><br>
 
