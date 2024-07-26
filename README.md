@@ -4,7 +4,7 @@ class SoftwareDeveloper:
     def __init__(self):
         self.name = "Rakshit Sisodiya"
         self.role = "Software Developer💻"
-        self.skills = ["Python", "JavaScript", "TypeScript", "Next.js", "React", "Node.js", "MongoDB"]
+        self.skills = ["Python", "TypeScript", "JavaScript", "Next.js", "React", "Node.js", "MongoDB"]
         self.location = "India"
         self.social_links = {
             "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
