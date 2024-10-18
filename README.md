@@ -8,7 +8,7 @@ class SoftwareDeveloper:
         self.skills = ["Python", "TypeScript", "JavaScript", "Next.js", "React", "Node.js", "MongoDB", "DevOps"]
         self.location = "India"
         self.social_links = {
-            "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya",
+            "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
             "Twitter": "https://twitter.com/rakshit_sisodia",
             "Website": "https://rakshit-portfolio-one.vercel.app/",
         }
