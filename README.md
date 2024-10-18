@@ -10,7 +10,7 @@ class SoftwareDeveloper:
         self.social_links = {
             "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
             "Twitter": "https://twitter.com/rakshit_sisodia",
-            "Website": "https://rakshit-portfolio-one.vercel.app/",
+            "Website": "https://rakshit-portfolio-one.vercel.app",
         }
 
     def hey(self):
