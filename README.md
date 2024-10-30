@@ -25,7 +25,7 @@ me.hey()
 
 
 # 💫 About Me:
--🔭 I’m currently working on <b>[Slanine](https://slanine-s4bi.vercel.app/), P.S - It is Open Source.</b><br /><br> - 🌱 I’m currently learning <b>DevOps</b><br><br> - 👨‍💻 All of my projects are available at <b>[Portfolio](https://rakshit-portfolio-one.vercel.app/)</b>.<br><br>- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me <b>[sisodiarakshit456@gmail.com](mailto:sisodiarakshit456@gmail.com)</b><br><br>- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br><br>
+-🔭 I’m currently working on <b>[Slanine](https://slanine-s4bi.vercel.app/), P.S - It is Open Source.</b><br /><br> - 🌱 I’m currently learning <b>DevOps</b><br><br> - 👨‍💻 All of my projects are available at <b>[My Portfolio](https://rakshit-portfolio-one.vercel.app/)</b>.<br><br>- 💬 Ask me about <b>Python, ReactJs and DSA</b><br><br>- 📫 How to reach me <b>[sisodiarakshit456@gmail.com](mailto:sisodiarakshit456@gmail.com)</b><br><br>- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br><br>
 
 
 ## 🌐 Socials:
