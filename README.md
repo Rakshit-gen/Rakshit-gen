@@ -39,7 +39,6 @@ me.hey()
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=shades-of-purple&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact) <br> <br>
 
-
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=false&no-bg=true&margin-w=4) <br><br>
 
