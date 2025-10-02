@@ -1,7 +1,5 @@
 # Hey there, I'm Rakshit 👋
 
-![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/github-contribution-grid-snake.svg)
-
 **Building things that matter, one commit at a time**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rakshit-portfolio-one.vercel.app/)
