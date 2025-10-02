@@ -64,7 +64,6 @@ const rakshit = {
 - **Clean Code**: Writing code is easy. Writing code that others (including future me) can understand? That's the real challenge.
 - **Problem Solving**: From competitive programming to real-world architecture challenges, I love breaking down complex problems into elegant solutions.
 
----
 
 ## 📫 Let's Connect
 
