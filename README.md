@@ -1,7 +1,5 @@
 # Hey there, I'm Rakshit 👋
 
-[![Rakshit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&bg_color=1a1b27&color=38bdae&line=f7768e&point=ffb86c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
 
 **Building things that matter, one commit at a time**
 
@@ -60,6 +58,9 @@ const rakshit = {
 - **Building in Public**: I believe in learning by building and sharing the journey. Every project is a chance to try something new.
 - **Clean Code**: Writing code is easy. Writing code that others (including future me) can understand? That's the real challenge.
 - **Problem Solving**: From competitive programming to real-world architecture challenges, I love breaking down complex problems into elegant solutions.
+
+[![How active I am(don't mind me I can get lazy somedays)](https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&bg_color=1a1b27&color=38bdae&line=f7768e&point=ffb86c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 ## 📫 Let's Connect
 
