@@ -77,7 +77,6 @@ I'm always up for interesting conversations about tech, side projects, or tradin
 
 ---
 
----
 
 <h3 align="center"> "It’s not who I am underneath, but what I do that defines me." - Batman </h3>
 
