@@ -21,7 +21,7 @@ My pride and joy—a full-stack SaaS platform offering 25+ productivity tools th
 
 **Tech**: Next.js, PostgreSQL, Stripe, GenAI APIs, REST APIs
 
-### 🗨️ Qme - Reddit-Style Community Platform
+### 🗨️ [Qme](https://flyuphigh.vercel.app/) - Reddit-Style Community Platform
 Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real win here was integrating Redis caching, which slashed page load times by 42%. There's something deeply satisfying about watching load times drop from seconds to milliseconds.
 
 **Tech**: Next.js, Redis, MongoDB, REST APIs
@@ -62,7 +62,7 @@ const rakshit = {
 
 I'm always up for interesting conversations about tech, side projects, or trading war stories about debugging production issues at 3 AM.
 
-- 💼 Check out my work: [Portfolio](https://rakshit-portfolio-one.vercel.app/)
+- 💼 Check out my work: [Portfolio](https://www.rakshitsisodiya.xyz/)
 - 📧 Email: sisodiarakshit456@gmail.com
 - 🔗 LinkedIn: [rakshit-sisodiya](https://www.linkedin.com/in/rakshit-sisodiya/)
 
