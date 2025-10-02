@@ -77,6 +77,11 @@ I'm always up for interesting conversations about tech, side projects, or tradin
 
 ---
 
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+---
+
+<h3 align="center"> "It’s not who I am underneath, but what I do that defines me." - Batman </h3>
+
+---
+
 
 **Thanks for stopping by! ⭐️ Feel free to explore my repos and drop a star if you find something interesting!**
