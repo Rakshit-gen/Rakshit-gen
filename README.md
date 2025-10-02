@@ -72,6 +72,6 @@ I'm always up for interesting conversations about tech, side projects, or tradin
 
 ---
 
-*"First, solve the problem. Then, write the code."* – John Johnson
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 **Thanks for stopping by! ⭐️ Feel free to explore my repos and drop a star if you find something interesting!**
