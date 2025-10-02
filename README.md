@@ -1,46 +1,73 @@
+# Hey there, I'm Rakshit 👋
 
+**Building things that matter, one commit at a time**
 
-```python
-class SoftwareDeveloper:
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rakshit-portfolio-one.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakshit-sisodiya/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/sisodiarakshit456/)
+[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/rakshit1110)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/drive/folders/1aClhIvgOrajbDFBAmhJVDRn81wz74JNI)
 
-    def __init__(self):
-        self.name = "Rakshit Sisodiya"
-        self.role = "Software Developer"
-        self.skills = ["Python", "TypeScript", "JavaScript", "Next.js", "React", "Node.js", "MongoDB", "DevOps"]
-        self.location = "India"
-        self.social_links = {
-            "LinkedIn": "https://www.linkedin.com/in/rakshit-sisodiya/",
-            "Twitter": "https://twitter.com/rakshit_sisodia/",
-            "Website": "https://rakshit-portfolio-one.vercel.app",
-        }
+## 🚀 About Me
 
-    def hey(self):
-        print("Welcome visitor, Do look at my work and tell me about it!.")
+I'm a software engineer who loves turning ideas into real, working products. Whether it's architecting scalable backends, optimizing database queries, or crafting smooth user experiences, I'm all about building software that people actually want to use.
 
+When I'm not pushing code, you'll find me exploring new tech stacks, solving algorithmic puzzles, or working on side projects that scratch my own itches (and hopefully solve problems for others too).
 
-me = SoftwareDeveloper()
-me.hey()
+## 💻 What I'm Building
+
+### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
+My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
+
+**Tech**: Next.js, PostgreSQL, Stripe, GenAI APIs, REST APIs
+
+### 🗨️ Qme - Reddit-Style Community Platform
+Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real win here was integrating Redis caching, which slashed page load times by 42%. There's something deeply satisfying about watching load times drop from seconds to milliseconds.
+
+**Tech**: Next.js, Redis, MongoDB, REST APIs
+
+### 🔧 More Projects Cooking...
+I'm constantly experimenting with new ideas—from microservices architectures to real-time data pipelines. Check out my pinned repos to see what I'm currently obsessed with.
+
+## 🛠️ My Toolkit
+
+```javascript
+const rakshit = {
+    languages: ["Go", "Python", "TypeScript", "JavaScript", "SQL"],
+    frontend: ["React", "Next.js", "Vue.js", "Svelte"],
+    backend: ["Node.js", "Express.js", "Django", "REST APIs"],
+    databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "BigQuery"],
+    cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
+    tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines"],
+    currentlyExploring: ["Distributed Systems", "System Design", "Performance Optimization"]
+};
 ```
 
+## 📊 GitHub Stats
 
-# 💫 About Me:
--🔭 I’m currently working on <b>[Slanine](https://www.slanine.online/), P.S - It is Open Source.</b><br /><br> - 🌱 I’m currently learning <b>DevOps</b><br><br> - 👨‍💻 All of my projects are available at <b>[My Portfolio](https://rakshit-portfolio-one.vercel.app/)</b>.<br><br>- 💬 Ask me about <b>Python, NextJs and DSA</b><br><br>- 📫 How to reach me <b>[sisodiarakshit456@gmail.com](mailto:sisodiarakshit456@gmail.com)</b><br><br>- 🤖 Solved 600+ DSA Questions across multiple coding platforms.<br><br>- 🌟Fun Fact - Making Jokes is my Coping Mechanism. <br><br>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rakshit-gen&show_icons=true&theme=radical&hide_border=true&count_private=true)
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rakshit-sisodiya) 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&layout=compact&theme=radical&hide_border=true)
 
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=radical&hide_border=true)
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Rakshit-gen&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=shades-of-purple&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&theme=shades-of-purple&hide_border=false&include_all_commits=false&count_private=false&layout=compact) <br> <br>
+## 🎯 What Drives Me
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=false&no-bg=true&margin-w=4) <br><br>
+- **Performance Obsession**: If it can be optimized, I will optimize it. Shaving milliseconds off response times gives me genuine joy.
+- **Building in Public**: I believe in learning by building and sharing the journey. Every project is a chance to try something new.
+- **Clean Code**: Writing code is easy. Writing code that others (including future me) can understand? That's the real challenge.
+- **Problem Solving**: From competitive programming to real-world architecture challenges, I love breaking down complex problems into elegant solutions.
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+## 📫 Let's Connect
 
+I'm always up for interesting conversations about tech, side projects, or trading war stories about debugging production issues at 3 AM.
+
+- 💼 Check out my work: [Portfolio](https://rakshit-portfolio-one.vercel.app/)
+- 📧 Email: sisodiarakshit456@gmail.com
+- 🔗 LinkedIn: [rakshit-sisodiya](https://www.linkedin.com/in/rakshit-sisodiya/)
+
+---
+
+*"First, solve the problem. Then, write the code."* – John Johnson
+
+**Thanks for stopping by! ⭐️ Feel free to explore my repos and drop a star if you find something interesting!**
