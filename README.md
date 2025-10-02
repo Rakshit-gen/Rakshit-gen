@@ -35,7 +35,7 @@ I'm constantly experimenting with new ideas—from microservices architectures t
 const rakshit = {
     languages: ["Go", "Python", "TypeScript", "JavaScript", "SQL"],
     frontend: ["React", "Next.js", "Vue.js", "Svelte"],
-    backend: ["Node.js", "Express.js", "Django", "REST APIs"],
+    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs"],
     databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "BigQuery"],
     cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
     tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines"],
