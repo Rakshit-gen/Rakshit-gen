@@ -1,6 +1,4 @@
-# Hey there, I'm Rakshit 👋
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Hey+there%2C+I'm+Rakshit+👋;Building+things+that+matter+%F0%9F%9A%80;Backend+Architect+%7C+Fullstack+Dev+%7C+AI+Enthusiast)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Hey+there%2C+I'm+Rakshit+👋;Building+things+that+matter+%F0%9F%9A%80;Backend+Architect+%7C+Fullstack+Dev+%7C+AI+Enthusiast)](https://git.io/typing-svg)
 
 
 **Building things that matter, one commit at a time**
