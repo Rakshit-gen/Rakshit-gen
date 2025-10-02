@@ -1,5 +1,8 @@
 # Hey there, I'm Rakshit 👋
 
+[![Rakshit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&bg_color=1a1b27&color=38bdae&line=f7768e&point=ffb86c&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
 **Building things that matter, one commit at a time**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://rakshit-portfolio-one.vercel.app/)
