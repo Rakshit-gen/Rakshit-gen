@@ -1,5 +1,6 @@
 # Hey there, I'm Rakshit 👋
 
+![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/github-contribution-grid-snake.svg)
 
 **Building things that matter, one commit at a time**
 
