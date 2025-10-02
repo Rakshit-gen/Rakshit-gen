@@ -20,6 +20,8 @@ I'm a software engineer who loves turning ideas into real, working products. Whe
 
 When I'm not pushing code, you'll find me exploring new tech stacks, solving algorithmic puzzles, or working on side projects that scratch my own itches (and hopefully solve problems for others too).
 
+![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
+
 ## 💻 What I'm Building
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
