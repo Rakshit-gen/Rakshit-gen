@@ -22,7 +22,7 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
 
-## 💻 What I'm Building
+## 💻 What I Build
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
