@@ -27,7 +27,7 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
 
-**Tech**: Next.js, PostgreSQL, Stripe, GenAI APIs, REST APIs
+**Tech**: Next.js, PostgreSQL, Stripe, GenAI APIs, REST APIs, Docker
 
 ### 🗨️ [Qme](https://flyuphigh.vercel.app/) - Reddit-Style Community Platform
 Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real win here was integrating Redis caching, which slashed page load times by 42%. There's something deeply satisfying about watching load times drop from seconds to milliseconds.
