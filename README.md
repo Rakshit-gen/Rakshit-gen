@@ -1,6 +1,7 @@
 
 <p align="center">
   
+
   [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Hey+there%2C+I'm+Rakshit+👋;Engineer+%7C+Creator+%7C+Dreamer)](https://git.io/typing-svg)
 
 </p>
