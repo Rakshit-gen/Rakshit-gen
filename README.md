@@ -57,8 +57,6 @@ const rakshit = {
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&layout=compact&theme=radical&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=radical&hide_border=true)
-
 ## 🎯 What Drives Me
 
 - **Performance Obsession**: If it can be optimized, I will optimize it. Shaving milliseconds off response times gives me genuine joy.
