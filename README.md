@@ -10,7 +10,7 @@
 **Building things that matter, one commit at a time**
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=rocket&logoColor=white)](https://rakshit-portfolio-one.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=briefcase&logoColor=white)](https://www.linkedin.com/in/rakshit-sisodiya/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.linkedin.com/in/rakshit-sisodiya/)
 [![Leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/sisodiarakshit456/)
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/rakshit1110)
 
