@@ -3,9 +3,6 @@
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Full+Stack+Engineer;Problem+Solver+%7C+Builder+%7C+Dreamer;Crafting+Digital+Experiences" alt="Typing SVG" />
   </a>
 </p>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
