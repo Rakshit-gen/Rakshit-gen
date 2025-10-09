@@ -22,8 +22,9 @@
 I'm a software engineer who loves turning ideas into real, working products. Whether it's architecting scalable backends, optimizing database queries, or crafting smooth user experiences, I'm all about building software that people actually want to use.
 
 When I'm not pushing code, you'll find me exploring new tech stacks, solving algorithmic puzzles, or working on side projects that scratch my own itches (and hopefully solve problems for others too).
-
+<p align="center">
 ![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
+</p>
 
 ## 💻 What I Build
 
