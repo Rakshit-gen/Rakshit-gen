@@ -8,13 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
 </p>
 
-<h3 align="center">✨ Building things that matter, one commit at a time ✨</h3
-<p align="center">
-  
-
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=500&lines=Hey+there%2C+I'm+Rakshit+👋;Engineer+%7C+Creator+%7C+Dreamer)](https://git.io/typing-svg)
-
-</p>
+<h3 align="center">✨ Building things that matter, one commit at a time ✨</h>
 
 
 **Building things that matter, one commit at a time**
