@@ -10,8 +10,7 @@
 
 <h3 align="center">✨ Building things that matter, one commit at a time ✨</h>
 <br />
-\\
-\\
+<br />
 
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black)](https://rakshit-portfolio-one.vercel.app/)
