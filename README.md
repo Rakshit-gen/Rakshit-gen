@@ -11,8 +11,6 @@
 <h3 align="center">✨ Building things that matter, one commit at a time ✨</h>
 
 
-**Building things that matter, one commit at a time**
-
 [![Portfolio](https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black)](https://rakshit-portfolio-one.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=black)](https://www.linkedin.com/in/rakshit-sisodiya/)
 [![Leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/sisodiarakshit456/)
