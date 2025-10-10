@@ -26,6 +26,12 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
+### 🤖 [Agent-PRM](https://agent-prm.onrender.com/docs) – AI-Driven PR Reviewer
+
+Built an autonomous AI agent that reviews GitHub pull requests intelligently. Leveraging Groq’s Llama 3.3 70B, it analyzes 500+ files in under 3 seconds, detecting bugs, performance issues, and style violations with precision. The backend is architected with FastAPI and Redis for asynchronous processing, containerized with Docker, and deployed on Render with a robust CI/CD pipeline—scaling to handle 100+ concurrent requests seamlessly.
+
+Tech: Python FastAPI, Redis, Groq API, Docker, REST API
+
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
 
