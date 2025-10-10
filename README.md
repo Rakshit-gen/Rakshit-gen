@@ -8,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
 </p>
 
-<h3 align="center">✨ Building things that matter, one commit at a time ✨</h>
+<h3 align="center">✨ Building things that matter, one commit at a time ✨</h3>
 <br />
 <br />
 
@@ -25,6 +25,11 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 ![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
 
 ## 💻 What I Build
+
+### 🤖 [AI PR Analyzer](https://github.com/Rakshit-gen/ai-pr-analyzer) - Intelligent Code Review Assistant
+A powerful AI-driven tool that analyzes pull requests and provides comprehensive code reviews. This tool examines code quality, security vulnerabilities, performance issues, and provides actionable feedback to improve code before it hits production. Built to streamline the code review process and catch issues early.
+
+**Tech**: Python, Claude AI API, GitHub API, FastAPI
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
@@ -45,11 +50,12 @@ I'm constantly experimenting with new ideas—from microservices architectures t
 const rakshit = {
     languages: ["Go", "Python", "TypeScript", "JavaScript", "SQL"],
     frontend: ["React", "Next.js", "Vue.js", "Svelte"],
-    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", GraphQL],
+    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", "GraphQL"],
     databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
     cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
     tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines"],
-    currentlyExploring: ["Distributed Systems", "System Design", "Performance Optimization"]
+    ai: ["Claude API", "GenAI Integration", "LLM-powered Tools"],
+    currentlyExploring: ["Distributed Systems", "System Design", "Performance Optimization", "AI-Assisted Development"]
 };
 ```
 
@@ -65,6 +71,7 @@ const rakshit = {
 - **Building in Public**: I believe in learning by building and sharing the journey. Every project is a chance to try something new.
 - **Clean Code**: Writing code is easy. Writing code that others (including future me) can understand? That's the real challenge.
 - **Problem Solving**: From competitive programming to real-world architecture challenges, I love breaking down complex problems into elegant solutions.
+- **AI-Powered Development**: Leveraging AI to build smarter tools that enhance developer productivity and code quality.
 
 
 ## 📫 Let's Connect
@@ -78,7 +85,7 @@ I'm always up for interesting conversations about tech, side projects, or tradin
 ---
 
 
-<h3 align="center"> "It’s not who I am underneath, but what I do that defines me." - Batman </h3>
+<h3 align="center"> "It's not who I am underneath, but what I do that defines me." - Batman </h3>
 
 ---
 
