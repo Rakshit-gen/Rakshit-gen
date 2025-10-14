@@ -33,7 +33,7 @@ Built a production-ready multi-agentic AI system that autonomously analyzes enti
 **Tech**: Python FastAPI, Redis, Groq API (Llama 3.3 70B), Python AST, Docker, Next.js, Shadcn UI
 
 **Microservices**:
-- **PR Review Microservice** - Autonomous pull request analysis agent
+- [**PR Review Microservice**](https://github.com/Rakshit-gen/agent-prm) - Autonomous pull request analysis agent
 - **Codebase Analyzer Microservice** - Full repository scanning and metrics generation
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
