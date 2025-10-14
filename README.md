@@ -26,11 +26,15 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
-### 🤖 [Agent-PRM](https://agent-prm.onrender.com/docs) – AI-Driven PR Reviewer
+### 🤖 [Aegis](https://github.com/Rakshit-gen/aegis) – Multi-Agentic AI Code Analysis Platform
 
-Built an autonomous AI agent that reviews GitHub pull requests intelligently. Leveraging Groq’s Llama 3.3 70B, it analyzes 500+ files in under 3 seconds, detecting bugs, performance issues, and style violations with precision. The backend is architected with FastAPI and Redis for asynchronous processing, containerized with Docker, and deployed on Render with a robust CI/CD pipeline—scaling to handle 100+ concurrent requests seamlessly.
+Built a production-ready multi-agentic AI system that autonomously analyzes entire codebases and reviews pull requests with surgical precision. Leveraging Groq's Llama 3.3 70B, this intelligent agent system performs comprehensive repository scans, and detects architectural issues. The architecture employs FastAPI for async API handling, Celery for distributed task processing, and Redis for high-performance caching—all containerized with Docker and deployed with a robust CI/CD pipeline scaling to 100+ concurrent requests.
 
-Tech: Python FastAPI, Redis, Groq API, Docker, REST API
+**Tech**: Python FastAPI, Celery, Redis, Groq API (Llama 3.3 70B), Python AST, NetworkX, Docker, Next.js, Shadcn UI
+
+**Microservices**:
+- **PR Review Microservice** - Autonomous pull request analysis agent
+- **Codebase Analyzer Microservice** - Full repository scanning and metrics generation
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
@@ -51,11 +55,11 @@ I'm constantly experimenting with new ideas—from microservices architectures t
 const rakshit = {
     languages: ["Go", "Python", "TypeScript", "JavaScript", "SQL"],
     frontend: ["React", "Next.js", "Vue.js", "Svelte"],
-    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", GraphQL],
+    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", "GraphQL"],
     databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
     cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
-    tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines"],
-    currentlyExploring: ["Distributed Systems", "System Design", "Performance Optimization"]
+    tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines", "Celery", "NetworkX"],
+    currentlyExploring: ["Distributed Systems", "System Design", "Multi-Agent AI", "Performance Optimization"]
 };
 ```
 
@@ -84,11 +88,9 @@ I'm always up for interesting conversations about tech, side projects, or tradin
 ---
 
 
-<h3 align="center"> "It’s not who I am underneath, but what I do that defines me." - Batman </h3>
+<h3 align="center"> "It's not who I am underneath, but what I do that defines me." - Batman </h3>
 
 ---
 
 
 **Thanks for stopping by! ⭐️ Feel free to explore my repos and drop a star if you find something interesting!**
-
-add my new project an AI pr analyser we created together to it
