@@ -34,7 +34,7 @@ Built a production-ready multi-agentic AI system that autonomously analyzes enti
 
 **Microservices**:
 - [**PR Review Microservice**](https://github.com/Rakshit-gen/agent-prm) - Autonomous pull request analysis agent
-- **Codebase Analyzer Microservice** - Full repository scanning and metrics generation
+- [**Codebase Analyzer Microservice**](https://github.com/Rakshit-gen/agent-code-manage) - Full repository scanning and metrics generation
 
 ### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
 My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
