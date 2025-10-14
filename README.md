@@ -26,11 +26,11 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
-### 🤖 [Aegis](https://github.com/Rakshit-gen/aegis) – Multi-Agentic AI Code Analysis Platform
+### 🤖 [Aegis](www.aegisagent.online) – Multi-Agentic AI Code Analysis Platform(Desktop only)
 
-Built a production-ready multi-agentic AI system that autonomously analyzes entire codebases and reviews pull requests with surgical precision. Leveraging Groq's Llama 3.3 70B, this intelligent agent system performs comprehensive repository scans, and detects architectural issues. The architecture employs FastAPI for async API handling, Celery for distributed task processing, and Redis for high-performance caching—all containerized with Docker and deployed with a robust CI/CD pipeline scaling to 100+ concurrent requests.
+Built a production-ready multi-agentic AI system that autonomously analyzes entire codebases and reviews pull requests with surgical precision. Leveraging Groq's Llama 3.3 70B, this intelligent agent system performs comprehensive repository scans, and detects architectural issues. The architecture employs FastAPI for async API handling, and Redis for high-performance caching—all containerized with Docker and deployed with a robust CI/CD pipeline scaling to 100+ concurrent requests.
 
-**Tech**: Python FastAPI, Celery, Redis, Groq API (Llama 3.3 70B), Python AST, NetworkX, Docker, Next.js, Shadcn UI
+**Tech**: Python FastAPI, Redis, Groq API (Llama 3.3 70B), Python AST, Docker, Next.js, Shadcn UI
 
 **Microservices**:
 - **PR Review Microservice** - Autonomous pull request analysis agent
