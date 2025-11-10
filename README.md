@@ -27,6 +27,19 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
+### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
+
+Built an intelligent API debugging assistant that diagnoses integration issues using a multi-agent AI system. SentralQ inspects your requests, identifies common failure patterns (auth errors, schema mismatches, network faults), and suggests real, executable fixes — all in seconds. Designed for developers who are tired of wasting hours staring at Postman errors.
+
+**Tech**: Next.js, LangGraph, TypeScript, Clerk Auth, LangChain, Groq LLMs, Shadcn UI, Tailwind, FastAPI
+
+**Features**:
+- 🧩 Multi-agent reasoning system to isolate API faults  
+- ⚡ Instant actionable fixes with example code snippets  
+- 🔐 Secure per-session analysis with Clerk authentication  
+- 🧠 AI-assisted insights to improve API design and reliability
+
+
 ### 🤖 [Aegis](www.aegisagent.online) – Multi-Agentic AI Code Analysis Platform(Desktop only)
 
 Built a production-ready multi-agentic AI system that autonomously analyzes entire codebases and reviews pull requests with surgical precision. Leveraging Groq's Llama 3.3 70B, this intelligent agent system performs comprehensive repository scans, and detects architectural issues. The architecture employs FastAPI for async API handling, and Redis for high-performance caching—all containerized with Docker and deployed with a robust CI/CD pipeline scaling to 100+ concurrent requests.
