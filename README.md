@@ -39,6 +39,8 @@ Built an intelligent API debugging assistant that diagnoses integration issues u
 - 🔐 Secure per-session analysis with Clerk authentication  
 - 🧠 AI-assisted insights to improve API design and reliability
 
+**Repositories**:
+
 - [SentralQ Backend](https://github.com/Rakshit-gen/API_Analyse)
 - [SentralQ Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
