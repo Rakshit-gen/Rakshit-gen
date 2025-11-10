@@ -39,7 +39,8 @@ Built an intelligent API debugging assistant that diagnoses integration issues u
 - 🔐 Secure per-session analysis with Clerk authentication  
 - 🧠 AI-assisted insights to improve API design and reliability
 
-[API Analysis Backend](https://github.com/Rakshit-gen/API_Analyse)
+- [SentralQ Backend](https://github.com/Rakshit-gen/API_Analyse)
+- [SentralQ Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
 
 ### 🤖 [Aegis](www.aegisagent.online) – Multi-Agentic AI Code Analysis Platform(Desktop only)
