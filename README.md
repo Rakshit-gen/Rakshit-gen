@@ -69,6 +69,11 @@ Built a full-featured community platform with posts, voting, media uploads, and 
 
 **Tech**: Next.js, Redis, MongoDB, REST APIs
 
+**Repository**:
+
+- [Qme](https://github.com/Rakshit-gen/Questme)
+
+
 ### 🔧 More Projects Cooking...
 I'm constantly experimenting with new ideas—from microservices architectures to real-time data pipelines. Check out my pinned repos to see what I'm currently obsessed with.
 
