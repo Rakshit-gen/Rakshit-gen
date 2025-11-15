@@ -42,7 +42,7 @@ Built a production-grade API Gateway designed for high-volume backend traffic, s
 
 **Repositories**:
 - [API Gateway Backend](https://github.com/Rakshit-gen/Gateway-be)
-- [API Gateway Dashboard](https://github.com/Rakshit-gen/API-Gateway)
+- [API Gateway Dashboard](https://github.com/Rakshit-gen/API-Gate)
 
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
