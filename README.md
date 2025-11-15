@@ -27,6 +27,24 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
+### 🛡️ [API Gateway](https://api-gate-steel.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
+
+Built a production-grade API Gateway designed for high-volume backend traffic, supporting reverse proxying, dynamic routing, request caching, load balancing, API key authentication, and fine-grained rate limiting. Includes a fully interactive dashboard with real-time streaming analytics powered by SSE, enabling insights such as p95 latency, cache hit ratio, error rate, and traffic volume.
+
+**Tech**: Go, Chi Router, Redis, PostgreSQL (Neon), Upstash Redis, SSE, Next.js (App Router), Shadcn UI, TanStack Query
+
+**Features**:
+- ⚡ Token-bucket rate limiting with per-key behaviour  
+- 🔁 Round-robin load balancing across backend instances  
+- 🗄️ Redis caching with configurable TTL and invalidation rules  
+- 🔐 API key + tier-based traffic control  
+- 📊 Real-time live analytics dashboard (latency, volume, cache hits, failure patterns)
+
+**Repositories**:
+- [API Gateway Backend](https://github.com/Rakshit-gen/Gateway-be)
+- [API Gateway Dashboard](https://github.com/Rakshit-gen/API-Gateway)
+
+
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
 
 Built an intelligent API debugging assistant that diagnoses integration issues using a multi-agent AI system. SentralQ inspects your requests, identifies common failure patterns (auth errors, schema mismatches, network faults), and suggests real, executable fixes — all in seconds. Designed for developers who are tired of wasting hours staring at Postman errors.
