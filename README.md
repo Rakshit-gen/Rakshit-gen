@@ -41,8 +41,8 @@ Built a production-grade API Gateway designed for high-volume backend traffic, s
 - 📊 Real-time live analytics dashboard (latency, volume, cache hits, failure patterns)
 
 **Repositories**:
-- [VantaEdge Backend](https://github.com/Rakshit-gen/vantageEdge)
-- [VantaEdge Dashboard](https://github.com/Rakshit-gen/vantageedge-fe)
+- [VantageEdge Backend](https://github.com/Rakshit-gen/vantageEdge)
+- [VantageEdge Dashboard](https://github.com/Rakshit-gen/vantageedge-fe)
 
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
