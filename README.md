@@ -27,11 +27,11 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
-### 🛡️ [API Gateway](https://api-gate-steel.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
+### 🛡️ [API Gateway](https://vantaedge.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
 
 Built a production-grade API Gateway designed for high-volume backend traffic, supporting reverse proxying, dynamic routing, request caching, load balancing, API key authentication, and fine-grained rate limiting. Includes a fully interactive dashboard with real-time streaming analytics powered by SSE, enabling insights such as p95 latency, cache hit ratio, error rate, and traffic volume.
 
-**Tech**: Go, Chi Router, Redis, PostgreSQL (Neon), Upstash Redis, SSE, Next.js (App Router), Shadcn UI, TanStack Query
+**Tech**: Go, Chi Router, Redis, PostgreSQL (Neon), Upstash Redis, Next.js (App Router), Shadcn UI, TanStack Query
 
 **Features**:
 - ⚡ Token-bucket rate limiting with per-key behaviour  
@@ -41,8 +41,8 @@ Built a production-grade API Gateway designed for high-volume backend traffic, s
 - 📊 Real-time live analytics dashboard (latency, volume, cache hits, failure patterns)
 
 **Repositories**:
-- [API Gateway Backend](https://github.com/Rakshit-gen/Gateway-be)
-- [API Gateway Dashboard](https://github.com/Rakshit-gen/API-Gate)
+- [VantaEdge Backend](https://github.com/Rakshit-gen/vantageEdge)
+- [VantaEdge Dashboard](https://github.com/Rakshit-gen/API-Gate)
 
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
