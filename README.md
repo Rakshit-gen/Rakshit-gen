@@ -27,7 +27,7 @@ When I'm not pushing code, you'll find me exploring new tech stacks, solving alg
 
 ## 💻 What I Build
 
-### 🛡️ [API Gateway](https://vantaedge.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
+### 🛡️ [VantaEdge API Gateway](https://vantaedge.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
 
 Built a production-grade API Gateway designed for high-volume backend traffic, supporting reverse proxying, dynamic routing, request caching, load balancing, API key authentication, and fine-grained rate limiting. Includes a fully interactive dashboard with real-time streaming analytics powered by SSE, enabling insights such as p95 latency, cache hit ratio, error rate, and traffic volume.
 
@@ -42,7 +42,7 @@ Built a production-grade API Gateway designed for high-volume backend traffic, s
 
 **Repositories**:
 - [VantaEdge Backend](https://github.com/Rakshit-gen/vantageEdge)
-- [VantaEdge Dashboard](https://github.com/Rakshit-gen/API-Gate)
+- [VantaEdge Dashboard](https://github.com/Rakshit-gen/vantageedge-fe)
 
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
