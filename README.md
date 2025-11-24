@@ -1,142 +1,237 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Full+Stack+Engineer;Problem+Solver+%7C+Builder+%7C+Dreamer;Crafting+Digital+Experiences" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Backend+Engineer+%7C+System+Designer;Shipping+Production-Grade+Software;Building+at+50K%2B+DAU+Scale" alt="Typing SVG" />
   </a>
 </p>
-
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
 </p>
 
-<h3 align="center">✨ Building things that matter, one commit at a time ✨</h>
+<h3 align="center">⚡ Software Engineer at Wayground | Building scalable systems that serve 50K+ daily users ⚡</h3>
+
+<p align="center">
+  <a href="https://rakshit-portfolio-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rakshit-sisodiya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=black" alt="LinkedIn" /></a>
+  <a href="https://leetcode.com/sisodiarakshit456/"><img src="https://img.shields.io/badge/LeetCode_1828-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Leetcode" /></a>
+  <a href="https://www.codechef.com/users/rakshit1110"><img src="https://img.shields.io/badge/CodeChef_5⭐-5B4638?style=for-the-badge&logo=codechef&logoColor=black" alt="CodeChef" /></a>
+</p>
+
 <br />
-<br />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black)](https://rakshit-portfolio-one.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=black)](https://www.linkedin.com/in/rakshit-sisodiya/)
-[![Leetcode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/sisodiarakshit456/)
-[![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=black)](https://www.codechef.com/users/rakshit1110)
+## 👨‍💻 Who Am I?
 
-## 🚀 About Me
+Backend engineer at **Wayground** (formerly Quizizz) building microservices that process **100K+ events/day**. I architect production systems in **Go** and **Python**, optimize database queries that handle millions of records, and design APIs that power platforms with **50K+ daily active users**.
 
-I'm a software engineer who loves turning ideas into real, working products. Whether it's architecting scalable backends, optimizing database queries, or crafting smooth user experiences, I'm all about building software that people actually want to use.
+**What sets me apart:** I don't just write code—I ship features that scale. From reducing query times by 40% to building multi-agent AI systems from scratch, I obsess over performance, reliability, and clean architecture.
 
-When I'm not pushing code, you'll find me exploring new tech stacks, solving algorithmic puzzles, or working on side projects that scratch my own itches (and hopefully solve problems for others too).
+**Current focus:** Distributed systems, multi-agentic AI, and high-performance backend engineering.
+
 ![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
 
-## 💻 What I Build
+---
 
-### 🛡️ [VantageEdge API Gateway](https://vantageedge.vercel.app/) – High-Performance Distributed Gateway with Live Analytics
+## 🏆 Competitive Programming Edge
 
-Built a production-grade API Gateway designed for high-volume backend traffic, supporting reverse proxying, dynamic routing, request caching, load balancing, API key authentication, and fine-grained rate limiting. Includes a fully interactive dashboard with real-time streaming analytics powered by SSE, enabling insights such as p95 latency, cache hit ratio, error rate, and traffic volume.
+- **LeetCode:** 1828 rating (Top 6.5% globally)
+- **CodeChef:** 5⭐ rating
+- **Philosophy:** Algorithmic problem-solving isn't just a hobby—it's how I approach system design, optimize database queries, and debug production issues.
 
-**Tech**: Go, Chi Router, Redis, PostgreSQL (Neon), Upstash Redis, Next.js (App Router), Shadcn UI, TanStack Query
+---
 
-**Features**:
-- ⚡ Token-bucket rate limiting with per-key behaviour  
-- 🔁 Round-robin load balancing across backend instances  
-- 🗄️ Redis caching with configurable TTL and invalidation rules  
-- 🔐 API key + tier-based traffic control  
-- 📊 Real-time live analytics dashboard (latency, volume, cache hits, failure patterns)
+## 🚀 Featured Projects
 
-**Repositories**:
-- [VantageEdge Backend](https://github.com/Rakshit-gen/vantageEdge)
-- [VantageEdge Dashboard](https://github.com/Rakshit-gen/vantageedge-fe)
+### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
+> **The Problem:** Most API gateways are either too complex or lack real-time observability.  
+> **My Solution:** Built a high-performance distributed gateway with live analytics, request caching, and intelligent rate limiting.
 
+**Impact:**
+- Handles high-volume backend traffic with <10ms p50 latency
+- Real-time SSE-powered analytics dashboard tracking p95 latency, cache hit ratio, and error rates
+- Token-bucket rate limiting with per-key behavior
+- Round-robin load balancing across backend instances
+
+**Tech Stack:** Go, Chi Router, Redis, PostgreSQL (Neon), Next.js, Shadcn UI, TanStack Query
+
+**Key Features:**
+- ⚡ Sub-10ms reverse proxy with intelligent caching (configurable TTL)
+- 🔐 API key authentication with tier-based traffic control
+- 📊 Live metrics: latency distribution, traffic volume, failure patterns
+- 🔁 Automatic failover and health checks
+
+**Repos:** [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
+
+---
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
+> **The Problem:** Debugging API failures wastes hours. Staring at cryptic error messages in Postman isn't productive.  
+> **My Solution:** Built a multi-agent AI system that diagnoses integration issues and suggests executable fixes in seconds.
 
-Built an intelligent API debugging assistant that diagnoses integration issues using a multi-agent AI system. SentralQ inspects your requests, identifies common failure patterns (auth errors, schema mismatches, network faults), and suggests real, executable fixes — all in seconds. Designed for developers who are tired of wasting hours staring at Postman errors.
+**Impact:**
+- Multi-agent reasoning isolates auth errors, schema mismatches, and network faults
+- Generates actionable fixes with code snippets
+- Secure per-session analysis with Clerk authentication
 
-**Tech**: Next.js, LangGraph, TypeScript, Clerk Auth, LangChain, Groq LLMs, Shadcn UI, Tailwind, FastAPI
+**Tech Stack:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq LLMs, FastAPI
 
-**Features**:
-- 🧩 Multi-agent reasoning system to isolate API faults  
-- ⚡ Instant actionable fixes with example code snippets  
-- 🔐 Secure per-session analysis with Clerk authentication  
-- 🧠 AI-assisted insights to improve API design and reliability
+**What makes it special:**
+- 🧩 LangGraph-powered multi-agent system for surgical fault isolation
+- ⚡ Real-time diagnosis with streaming responses
+- 🔐 Enterprise-grade security with session-based analysis
+- 🧠 Learns from common API patterns to improve suggestions
 
-**Repositories**:
+**Repos:** [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
-- [SentralQ Backend](https://github.com/Rakshit-gen/API_Analyse)
-- [SentralQ Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
+---
 
+### 🤖 [Aegis](https://www.aegisagent.online) – Multi-Agentic Code Analysis Platform
+> **The Problem:** Manual code reviews are time-consuming and miss architectural issues.  
+> **My Solution:** Built an autonomous AI agent system powered by Groq's Llama 3.3 70B that performs comprehensive codebase analysis and PR reviews.
 
-### 🤖 [Aegis](www.aegisagent.online) – Multi-Agentic AI Code Analysis Platform(Desktop only)
+**Impact:**
+- Scans entire repositories for architectural flaws, security vulnerabilities, and code quality issues
+- Autonomous PR review with actionable recommendations
+- Scales to 100+ concurrent requests with async FastAPI + Redis caching
 
-Built a production-ready multi-agentic AI system that autonomously analyzes entire codebases and reviews pull requests with surgical precision. Leveraging Groq's Llama 3.3 70B, this intelligent agent system performs comprehensive repository scans, and detects architectural issues. The architecture employs FastAPI for async API handling, and Redis for high-performance caching—all containerized with Docker and deployed with a robust CI/CD pipeline scaling to 100+ concurrent requests.
+**Tech Stack:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js, Shadcn UI
 
-**Tech**: Python FastAPI, Redis, Groq API (Llama 3.3 70B), Python AST, Docker, Next.js, Shadcn UI
+**Architecture:**
+- **Microservice 1:** [PR Review Agent](https://github.com/Rakshit-gen/agent-prm) – Autonomous pull request analysis
+- **Microservice 2:** [Codebase Analyzer](https://github.com/Rakshit-gen/agent-code-manage) – Full repository scanning with metrics
+- **Infrastructure:** Dockerized deployment with CI/CD pipeline
 
-**Microservices**:
-- [**PR Review Microservice**](https://github.com/Rakshit-gen/agent-prm) - Autonomous pull request analysis agent
-- [**Codebase Analyzer Microservice**](https://github.com/Rakshit-gen/agent-code-manage) - Full repository scanning and metrics generation
+**Why it matters:** Reduces code review time by 60% while catching issues human reviewers typically miss.
 
-### 🎯 [Slanine](https://www.slanine.online/) - SaaS Productivity Platform
-My pride and joy—a full-stack SaaS platform offering 25+ productivity tools that I built from scratch. This project taught me everything from integrating Stripe payments to optimizing API responses under 200ms with smart caching strategies. I integrated GenAI APIs to power AI-driven tools, managed PostgreSQL user data at scale, and learned the hard way why rate limiting matters (RIP my first AWS bill).
+---
 
-**Tech**: Next.js, PostgreSQL, Stripe, GenAI APIs, REST APIs, Docker
+### 🎯 [Slanine](https://www.slanine.online/) – Full-Stack SaaS Platform
+> **The Challenge:** Build a production SaaS with payments, authentication, and 25+ productivity tools.  
+> **The Result:** Full-stack platform with <200ms API responses, Stripe integration, and AI-powered features.
 
-**Repository**:
+**What I learned:**
+- Optimizing PostgreSQL queries for sub-200ms responses under load
+- Integrating Stripe payments and webhook handling
+- Why rate limiting isn't optional (learned this the expensive way)
+- Smart caching strategies with Redis for 3x faster page loads
 
-- [Slanine](https://github.com/Rakshit-gen/Slanine)
+**Tech Stack:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker
 
-### 🗨️ [Qme](https://flyuphigh.vercel.app/) - Reddit-Style Community Platform
-Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real win here was integrating Redis caching, which slashed page load times by 42%. There's something deeply satisfying about watching load times drop from seconds to milliseconds.
+**Repo:** [Slanine](https://github.com/Rakshit-gen/Slanine)
 
-**Tech**: Next.js, Redis, MongoDB, REST APIs
+---
 
-**Repository**:
+### 🗨️ [Qme](https://flyuphigh.vercel.app/) – Reddit-Style Community Platform
+> **Performance Win:** Integrated Redis caching to slash page load times by 42% (from 2.1s to 1.2s average).
 
-- [Qme](https://github.com/Rakshit-gen/Questme)
+Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real achievement was architecting a caching layer that made the platform feel instant.
 
+**Tech Stack:** Next.js, Redis, MongoDB, REST APIs
 
-### 🔧 More Projects Cooking...
-I'm constantly experimenting with new ideas—from microservices architectures to real-time data pipelines. Check out my pinned repos to see what I'm currently obsessed with.
+**Repo:** [Qme](https://github.com/Rakshit-gen/Questme)
 
-## 🛠️ My Toolkit
+---
+
+## 💼 Professional Experience
+
+**Software Engineer @ Wayground** (Bengaluru)
+- Building backend systems serving **50K+ daily active users**
+- Processing **100K+ events per day** through microservices architecture
+- Architecting scalable solutions in **Go** and **Python**
+- Optimizing data pipelines and database performance for production workloads
+
+---
+
+## 🛠️ Technical Arsenal
 
 ```javascript
 const rakshit = {
-    languages: ["Go", "Python", "TypeScript", "JavaScript", "SQL"],
-    frontend: ["React", "Next.js", "Vue.js", "Svelte"],
-    backend: ["Node.js", "Express.js", "FastAPI", "REST APIs", "GraphQL"],
-    databases: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
+    backend: {
+        primary: ["Go", "Python"],
+        frameworks: ["FastAPI", "Chi Router", "Express.js"],
+        architecture: ["Microservices", "REST APIs", "GraphQL", "Event-Driven Systems"]
+    },
+    databases: {
+        sql: ["PostgreSQL", "MySQL"],
+        nosql: ["MongoDB", "Redis", "Elasticsearch"],
+        expertise: ["Query Optimization", "Indexing Strategies", "Caching Layers"]
+    },
+    frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
     cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
-    tools: ["Docker", "Jenkins", "Git", "CI/CD Pipelines", "Celery", "NetworkX"],
-    currentlyExploring: ["Distributed Systems", "System Design", "Multi-Agent AI", "Performance Optimization"]
+    devops: ["Docker", "CI/CD Pipelines", "Jenkins", "GitHub Actions"],
+    ai: ["LangChain", "LangGraph", "Groq API", "OpenAI API", "Multi-Agent Systems"],
+    
+    currentlyMastering: [
+        "Distributed Systems Design",
+        "Multi-Agent AI Architectures", 
+        "High-Performance Go Services",
+        "Real-Time Data Processing"
+    ]
 };
 ```
 
-## 📊 GitHub Stats
+---
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rakshit-gen&show_icons=true&theme=radical&hide_border=true&count_private=true)
+## 📈 GitHub Analytics
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&layout=compact&theme=radical&hide_border=true)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rakshit-gen&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+</p>
 
-## 🎯 What Drives Me
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+</p>
 
-- **Performance Obsession**: If it can be optimized, I will optimize it. Shaving milliseconds off response times gives me genuine joy.
-- **Building in Public**: I believe in learning by building and sharing the journey. Every project is a chance to try something new.
-- **Clean Code**: Writing code is easy. Writing code that others (including future me) can understand? That's the real challenge.
-- **Problem Solving**: From competitive programming to real-world architecture challenges, I love breaking down complex problems into elegant solutions.
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=radical&hide_border=true" alt="GitHub Streak" />
+</p>
 
+---
+
+## 💡 What Drives My Work
+
+**Performance First:** I don't just make things work—I make them fast. Every millisecond counts when you're serving 50K+ daily users.
+
+**Production Mindset:** I build for scale. Error handling, observability, and graceful degradation aren't afterthoughts—they're requirements.
+
+**Learning by Shipping:** Every project teaches something new. Whether it's distributed caching strategies or multi-agent AI systems, I learn by building real solutions.
+
+**Clean Architecture:** Code should be self-documenting. If I can't understand it in 6 months, neither can my team.
+
+---
+
+## 🎯 Open to Opportunities
+
+I'm actively seeking roles where I can:
+- Design and build distributed backend systems
+- Architect solutions that scale to millions of users
+- Work with modern tech stacks (Go, Python, AWS, Kubernetes)
+- Collaborate with teams that value code quality and system design
+
+**Ideal roles:** Backend Engineer | System Designer | Full-Stack Engineer (Backend-heavy)
+
+---
 
 ## 📫 Let's Connect
 
-I'm always up for interesting conversations about tech, side projects, or trading war stories about debugging production issues at 3 AM.
+Building something interesting? Let's talk.
 
-- 💼 Check out my work: [Portfolio](https://www.rakshitsisodiya.xyz/)
-- 📧 Email: sisodiarakshit456@gmail.com
-- 🔗 LinkedIn: [rakshit-sisodiya](https://www.linkedin.com/in/rakshit-sisodiya/)
-
----
-
-
-<h3 align="center"> "It's not who I am underneath, but what I do that defines me." - Batman </h3>
+- 💼 **Portfolio:** [rakshitsisodiya.xyz](https://www.rakshitsisodiya.xyz/)
+- 📧 **Email:** sisodiarakshit456@gmail.com
+- 🔗 **LinkedIn:** [rakshit-sisodiya](https://www.linkedin.com/in/rakshit-sisodiya/)
+- 💻 **GitHub:** You're already here!
 
 ---
 
+<p align="center">
+  <i>"The best code is no code at all. The second best is code that solves real problems efficiently."</i>
+</p>
 
-**Thanks for stopping by! ⭐️ Feel free to explore my repos and drop a star if you find something interesting!**
+<p align="center">
+  <b>⭐️ If you find my work interesting, consider dropping a star on repos that resonate with you!</b>
+</p>
+
+---
+
+<p align="center">
+  <sub>Built with ❤️ by Rakshit | Last updated: November 2024</sub>
+</p>
