@@ -131,16 +131,6 @@ Built a full-featured community platform with posts, voting, media uploads, and 
 
 ---
 
-## 💼 Professional Experience
-
-**Software Engineer @ Wayground** (Bengaluru)
-- Building backend systems serving **50K+ daily active users**
-- Processing **100K+ events per day** through microservices architecture
-- Architecting scalable solutions in **Go** and **Python**
-- Optimizing data pipelines and database performance for production workloads
-
----
-
 ## 🛠️ Technical Arsenal
 
 ```javascript
