@@ -175,6 +175,14 @@ const rakshit = {
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
+<!-- Contribution Graph -->
+[![Rakshit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<!-- Wakatime Stats (tracks coding time) -->
+[![Rakshit's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=rakshit&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+<!-- Trophy Collection -->
+[![trophy](https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 ---
 
 ## 💡 What Drives My Work
