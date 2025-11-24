@@ -164,25 +164,22 @@ const rakshit = {
 ## 📈 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rakshit-gen&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rakshit-gen&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
+<!-- Activity Graph -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rakshit-gen&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true" alt="Rakshit's github activity graph" />
+  </a>
 </p>
 
-<!-- Contribution Graph -->
-[![Rakshit's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<!-- Wakatime Stats (tracks coding time) -->
-[![Rakshit's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=rakshit&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
 <!-- Trophy Collection -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+  </a>
+</p>
 ---
 
 ## 💡 What Drives My Work
