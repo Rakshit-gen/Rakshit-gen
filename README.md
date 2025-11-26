@@ -63,7 +63,7 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 ---
 
-### 🧩 SyncForge – Real-Time Collaborative Task Board (Trello + Notion Hybrid)
+### 🧩 [SyncForge](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board (Trello + Notion Hybrid)
 
 > **The Problem:** Most task tools lack true real-time collaboration and flexible role-driven workflows.  
 > **My Solution:** Built a production-grade collaborative board system with live task updates, drag-and-drop workflow, and WebSocket-powered multi-user editing.
