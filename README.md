@@ -63,6 +63,28 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 ---
 
+### 🧩 SyncForge – Real-Time Collaborative Task Board (Trello + Notion Hybrid)
+
+> **The Problem:** Most task tools lack true real-time collaboration and flexible role-driven workflows.  
+> **My Solution:** Built a production-grade collaborative board system with live task updates, drag-and-drop workflow, and WebSocket-powered multi-user editing.
+
+**Impact:**
+- Real-time updates across users with WebSockets + Redis Pub/Sub
+- Clean architecture with clear domains: controllers → services → repositories
+- Fully client-side auth (NextAuth + JWT) with backend acting as a trust-based stateless API surface
+
+**Tech Stack:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand, TailwindCSS, shadcn UI
+
+**Key Features:**
+- 🏗️ Drag-and-drop task board with multi-user state sync
+- ⚡ Event-driven architecture with Redis Pub/Sub for broadcast operations
+- 🔄 Real-time task editing, activity logs, and notification streams
+- 🔐 Role-based UI enforcement (admin/editor/viewer) handled entirely on frontend
+- 🧱 Clean modular backend architecture with services, repos, and DTO layers
+
+**Repos:** [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
+
+
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
 > **The Problem:** Debugging API failures wastes hours. Staring at cryptic error messages in Postman isn't productive.  
 > **My Solution:** Built a multi-agent AI system that diagnoses integration issues and suggests executable fixes in seconds.
