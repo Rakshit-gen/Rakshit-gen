@@ -8,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
 </p>
 
-<h3 align="center">Software Engineer</h3>
+<h3 align="center">Full Stack Engineer</h3>
 
 <p align="center">
   <a href="https://rakshit-portfolio-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black" alt="Portfolio" /></a>
@@ -84,6 +84,7 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 **Repos:** [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
 
+---
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
 > **The Problem:** Debugging API failures wastes hours. Staring at cryptic error messages in Postman isn't productive.  
