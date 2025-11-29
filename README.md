@@ -54,7 +54,7 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 - Real-time progress tracking and async tasks for smooth user experience
 - Scalable backend capable of handling concurrent podcast generation
 
-**Tech Stack:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, Coqui TTS, AWS S3
+**Tech Stack:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, GCP TTS, AWS S3
 
 **Key Features:**
 - 🎤 Automated script generation using LLMs and semantic context
