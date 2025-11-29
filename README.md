@@ -41,6 +41,32 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 ## 🚀 Featured Projects
 
+---
+
+### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
+
+> **The Problem:** Creating high-quality podcast content takes time, planning, voice recording, editing, and distribution.  
+> **My Solution:** Built a fully automated pipeline where users input a topic, and the system generates a complete podcast episode with scripts, narration, and voice synthesis.
+
+**Impact:**
+- Fully automated end-to-end workflow from topic → script → voice → downloadable audio
+- Vector search–powered semantic retrieval for context-aware content generation
+- Real-time progress tracking and async tasks for smooth user experience
+- Scalable backend capable of handling concurrent podcast generation
+
+**Tech Stack:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, Coqui TTS, AWS S3
+
+**Key Features:**
+- 🎤 Automated script generation using LLMs and semantic context
+- 🧠 Vector search for topic-aware knowledge grounding
+- ⚙️ Redis queue workers for async long-running processes
+- 📡 Real-time UI feedback with streaming logs and progress indicators
+- ☁️ Audio storage + delivery via AWS S3
+
+**Repo:** [NevraAI](https://github.com/Rakshit-gen/nerva)
+
+---
+
 ### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
 > **The Problem:** Most API gateways are either too complex or lack real-time observability.  
 > **My Solution:** Built a high-performance distributed gateway with live analytics, request caching, and intelligent rate limiting.
