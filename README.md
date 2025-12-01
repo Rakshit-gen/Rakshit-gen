@@ -41,7 +41,6 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 ## 🚀 Featured Projects
 
----
 
 ### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
 
