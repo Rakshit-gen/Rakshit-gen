@@ -45,136 +45,69 @@ Backend engineer at **Wayground** (formerly Quizizz) building microservices that
 
 ### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
 
-> **The Problem:** Creating high-quality podcast content takes time, planning, voice recording, editing, and distribution.  
-> **My Solution:** Built a fully automated pipeline where users input a topic, and the system generates a complete podcast episode with scripts, narration, and voice synthesis.
+Fully automated pipeline that transforms any topic into a complete podcast episode with AI-generated scripts, voice synthesis, and downloadable audio. Features vector search for context-aware content, Redis queue workers for async processing, and real-time progress tracking.
 
-**Impact:**
-- Fully automated end-to-end workflow from topic → script → voice → downloadable audio
-- Vector search–powered semantic retrieval for context-aware content generation
-- Real-time progress tracking and async tasks for smooth user experience
-- Scalable backend capable of handling concurrent podcast generation
-
-**Tech Stack:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, GCP TTS, AWS S3
-
-**Key Features:**
-- 🎤 Automated script generation using LLMs and semantic context
-- 🧠 Vector search for topic-aware knowledge grounding
-- ⚙️ Redis queue workers for async long-running processes
-- 📡 Real-time UI feedback with streaming logs and progress indicators
-- ☁️ Audio storage + delivery via AWS S3
+**Tech:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, GCP TTS, AWS S3
 
 **Repo:** [NevraAI](https://github.com/Rakshit-gen/nerva)
 
 ---
 
 ### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
-> **The Problem:** Most API gateways are either too complex or lack real-time observability.  
-> **My Solution:** Built a high-performance distributed gateway with live analytics, request caching, and intelligent rate limiting.
 
-**Impact:**
-- Handles high-volume backend traffic with <10ms p50 latency
-- Real-time SSE-powered analytics dashboard tracking p95 latency, cache hit ratio, and error rates
-- Token-bucket rate limiting with per-key behavior
-- Round-robin load balancing across backend instances
+High-performance distributed gateway with <10ms p50 latency, real-time SSE-powered analytics dashboard, token-bucket rate limiting, and round-robin load balancing. Tracks p95 latency, cache hit ratio, and error rates in real-time.
 
-**Tech Stack:** Go, Chi Router, Redis, PostgreSQL (Neon), Next.js, Shadcn UI, TanStack Query
-
-**Key Features:**
-- ⚡ Sub-10ms reverse proxy with intelligent caching (configurable TTL)
-- 🔐 API key authentication with tier-based traffic control
-- 📊 Live metrics: latency distribution, traffic volume, failure patterns
-- 🔁 Automatic failover and health checks
+**Tech:** Go, Chi Router, Redis, PostgreSQL (Neon), Next.js, Shadcn UI, TanStack Query
 
 **Repos:** [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
 
 ---
 
-### 🧩 [SyncForge](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board (Trello + Notion Hybrid)
+### 🧩 [SyncForge](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board
 
-> **The Problem:** Most task tools lack true real-time collaboration and flexible role-driven workflows.  
-> **My Solution:** Built a production-grade collaborative board system with live task updates, drag-and-drop workflow, and WebSocket-powered multi-user editing.
+Production-grade collaborative board with WebSocket-powered multi-user editing, drag-and-drop workflows, and Redis Pub/Sub for real-time broadcast. Clean architecture with role-based UI enforcement and activity logging.
 
-**Impact:**
-- Real-time updates across users with WebSockets + Redis Pub/Sub
-- Clean architecture with clear domains: controllers → services → repositories
-- Fully client-side auth (NextAuth + JWT) with backend acting as a trust-based stateless API surface
-
-**Tech Stack:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand, TailwindCSS, shadcn UI
-
-**Key Features:**
-- 🏗️ Drag-and-drop task board with multi-user state sync
-- ⚡ Event-driven architecture with Redis Pub/Sub for broadcast operations
-- 🔄 Real-time task editing, activity logs, and notification streams
-- 🔐 Role-based UI enforcement (admin/editor/viewer) handled entirely on frontend
-- 🧱 Clean modular backend architecture with services, repos, and DTO layers
+**Tech:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand, TailwindCSS, shadcn UI
 
 **Repos:** [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
 
 ---
 
 ### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
-> **The Problem:** Debugging API failures wastes hours. Staring at cryptic error messages in Postman isn't productive.  
-> **My Solution:** Built a multi-agent AI system that diagnoses integration issues and suggests executable fixes in seconds.
 
-**Impact:**
-- Multi-agent reasoning isolates auth errors, schema mismatches, and network faults
-- Generates actionable fixes with code snippets
-- Secure per-session analysis with Clerk authentication
+Multi-agent AI system that diagnoses API integration issues and suggests executable fixes in seconds. LangGraph-powered reasoning isolates auth errors, schema mismatches, and network faults with streaming responses.
 
-**Tech Stack:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq LLMs, FastAPI
-
-**What makes it special:**
-- 🧩 LangGraph-powered multi-agent system for surgical fault isolation
-- ⚡ Real-time diagnosis with streaming responses
-- 🔐 Enterprise-grade security with session-based analysis
-- 🧠 Learns from common API patterns to improve suggestions
+**Tech:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq LLMs, FastAPI
 
 **Repos:** [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
 ---
 
 ### 🤖 [Aegis](https://www.aegisagent.online) – Multi-Agentic Code Analysis Platform
-> **The Problem:** Manual code reviews are time-consuming and miss architectural issues.  
-> **My Solution:** Built an autonomous AI agent system powered by Groq's Llama 3.3 70B that performs comprehensive codebase analysis and PR reviews.
 
-**Impact:**
-- Scans entire repositories for architectural flaws, security vulnerabilities, and code quality issues
-- Autonomous PR review with actionable recommendations
-- Scales to 100+ concurrent requests with async FastAPI + Redis caching
+Autonomous AI agent system powered by Groq's Llama 3.3 70B for comprehensive codebase analysis and PR reviews. Scans repositories for architectural flaws, security vulnerabilities, and code quality issues. Reduces code review time by 60%.
 
-**Tech Stack:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js, Shadcn UI
+**Tech:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js, Shadcn UI
 
-**Architecture:**
-- **Microservice 1:** [PR Review Agent](https://github.com/Rakshit-gen/agent-prm) – Autonomous pull request analysis
-- **Microservice 2:** [Codebase Analyzer](https://github.com/Rakshit-gen/agent-code-manage) – Full repository scanning with metrics
-- **Infrastructure:** Dockerized deployment with CI/CD pipeline
-
-**Why it matters:** Reduces code review time by 60% while catching issues human reviewers typically miss.
+**Repos:** [PR Review Agent](https://github.com/Rakshit-gen/agent-prm) | [Codebase Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
 
 ---
 
 ### 🎯 [Slanine](https://www.slanine.online/) – Full-Stack SaaS Platform
-> **The Challenge:** Build a production SaaS with payments, authentication, and 25+ productivity tools.  
-> **The Result:** Full-stack platform with <200ms API responses, Stripe integration, and AI-powered features.
 
-**What I learned:**
-- Optimizing PostgreSQL queries for sub-200ms responses under load
-- Integrating Stripe payments and webhook handling
-- Why rate limiting isn't optional (learned this the expensive way)
-- Smart caching strategies with Redis for 3x faster page loads
+Production SaaS with 25+ productivity tools, Stripe payments, and AI-powered features. Optimized PostgreSQL queries for <200ms API responses and implemented Redis caching for 3x faster page loads.
 
-**Tech Stack:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker
+**Tech:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker
 
 **Repo:** [Slanine](https://github.com/Rakshit-gen/Slanine)
 
 ---
 
 ### 🗨️ [Qme](https://flyuphigh.vercel.app/) – Reddit-Style Community Platform
-> **Performance Win:** Integrated Redis caching to slash page load times by 42% (from 2.1s to 1.2s average).
 
-Built a full-featured community platform with posts, voting, media uploads, and complete CRUD operations. The real achievement was architecting a caching layer that made the platform feel instant.
+Full-featured community platform with posts, voting, and media uploads. Integrated Redis caching to reduce page load times by 42% (from 2.1s to 1.2s average).
 
-**Tech Stack:** Next.js, Redis, MongoDB, REST APIs
+**Tech:** Next.js, Redis, MongoDB, REST APIs
 
 **Repo:** [Qme](https://github.com/Rakshit-gen/Questme)
 
@@ -182,31 +115,21 @@ Built a full-featured community platform with posts, voting, media uploads, and 
 
 ## 🛠️ Technical Arsenal
 
-```javascript
-const rakshit = {
-    backend: {
-        primary: ["Go", "Python"],
-        frameworks: ["FastAPI", "Chi Router", "Express.js"],
-        architecture: ["Microservices", "REST APIs", "GraphQL", "Event-Driven Systems"]
-    },
-    databases: {
-        sql: ["PostgreSQL", "MySQL"],
-        nosql: ["MongoDB", "Redis", "Elasticsearch"],
-        expertise: ["Query Optimization", "Indexing Strategies", "Caching Layers"]
-    },
-    frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-    cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
-    devops: ["Docker", "CI/CD Pipelines", "Jenkins", "GitHub Actions"],
-    ai: ["LangChain", "LangGraph", "Groq API", "OpenAI API", "Multi-Agent Systems"],
-    
-    currentlyMastering: [
-        "Distributed Systems Design",
-        "Multi-Agent AI Architectures", 
-        "High-Performance Go Services",
-        "Real-Time Data Processing"
-    ]
-};
-```
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ---
 
@@ -225,40 +148,6 @@ const rakshit = {
     <img src="https://github-profile-trophy.vercel.app/?username=Rakshit-gen&theme=radical&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
   </a>
 </p>
----
-
-## 💡 What Drives My Work
-
-**Performance First:** I don't just make things work—I make them fast. Every millisecond counts when you're serving 50K+ daily users.
-
-**Production Mindset:** I build for scale. Error handling, observability, and graceful degradation aren't afterthoughts—they're requirements.
-
-**Learning by Shipping:** Every project teaches something new. Whether it's distributed caching strategies or multi-agent AI systems, I learn by building real solutions.
-
-**Clean Architecture:** Code should be self-documenting. If I can't understand it in 6 months, neither can my team.
-
----
-
-## 🎯 Open to Opportunities
-
-I'm actively seeking roles where I can:
-- Design and build distributed backend systems
-- Architect solutions that scale to millions of users
-- Work with modern tech stacks (Go, Python, AWS, Kubernetes)
-- Collaborate with teams that value code quality and system design
-
-**Ideal roles:** Backend Engineer | System Designer | Full-Stack Engineer (Backend-heavy)
-
----
-
-## 📫 Let's Connect
-
-Building something interesting? Let's talk.
-
-- 💼 **Portfolio:** [rakshitsisodiya.xyz](https://www.rakshitsisodiya.xyz/)
-- 📧 **Email:** sisodiarakshit456@gmail.com
-- 🔗 **LinkedIn:** [rakshit-sisodiya](https://www.linkedin.com/in/rakshit-sisodiya/)
-- 💻 **GitHub:** You're already here!
 
 ---
 
