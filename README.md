@@ -163,15 +163,8 @@ const rakshit = {
 ---
 
 <p align="center">
-  <i>"The best code is no code at all. The second best is code that solves real problems efficiently."</i>
+  <i>"It’s not who I am underneath, but what I do that defines me."</i>
 </p>
 
-<p align="center">
-  <b>⭐️ If you find my work interesting, consider dropping a star on repos that resonate with you!</b>
-</p>
 
 ---
-
-<p align="center">
-  <sub>Built with ❤️ by Rakshit | Last updated: November 2024</sub>
-</p>
