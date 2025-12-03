@@ -62,7 +62,7 @@ High-performance distributed gateway with <10ms p50 latency, real-time SSE-power
 
 ---
 
-### 🧩 [SyncForge](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board
+### 🧩 [SyncLayer](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board
 
 Production-grade collaborative board with WebSocket-powered multi-user editing, drag-and-drop workflows, and Redis Pub/Sub for real-time broadcast. Clean architecture with role-based UI enforcement and activity logging.
 
