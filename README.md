@@ -8,7 +8,7 @@
   <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
 </p>
 
-<h3 align="center">Full Stack Engineer</h3>
+<h3 align="center">AI Backend Engineer</h3>
 
 <p align="center">
   <a href="https://rakshit-portfolio-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black" alt="Portfolio" /></a>
