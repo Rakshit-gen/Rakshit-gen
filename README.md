@@ -118,27 +118,45 @@ Full-featured community platform with posts, voting, and media uploads. Integrat
 ```javascript
 const rakshit = {
     backend: {
-        primary: ["Go", "Python"],
-        frameworks: ["FastAPI", "Chi Router", "Express.js"],
-        architecture: ["Microservices", "REST APIs", "GraphQL", "Event-Driven Systems"]
+        languages: ["Go (Chi Router, Fiber)", "Python (FastAPI, NestJS)", "Node.js (Express)"],
+        patterns: ["Microservices", "Event-Driven (Kafka/RQ)", "CQRS", "Saga Pattern"],
+        apis: ["REST", "GraphQL", "gRPC", "WebSockets"]
     },
     databases: {
-        sql: ["PostgreSQL", "MySQL"],
-        nosql: ["MongoDB", "Redis", "Elasticsearch"],
-        expertise: ["Query Optimization", "Indexing Strategies", "Caching Layers"]
+        sql: ["PostgreSQL (Sharding, Neon)", "MySQL"],
+        nosql: ["Redis (Pub/Sub, L1-L2 Caching, Streams)", "MongoDB", "DynamoDB"],
+        search: ["Elasticsearch/OpenSearch", "Qdrant (Vector DB)"],
+        optimization: ["Query Rewriting", "Materialized Views", "Connection Pooling"]
     },
-    frontend: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Shadcn UI"],
-    cloud: ["AWS (EC2, S3, Lambda, EKS)", "GCP (Compute Engine, BigQuery)"],
-    devops: ["Docker", "CI/CD Pipelines", "Jenkins", "GitHub Actions"],
-    ai: ["LangChain", "LangGraph", "Groq API", "OpenAI API", "Multi-Agent Systems"],
-    
+    frontend: {
+        frameworks: ["Next.js 15 (App Router)", "React 19", "Vue.js 3"],
+        styling: ["Tailwind CSS", "Shadcn UI", "Styled Components"],
+        state: ["Zustand", "TanStack Query", "React Query"]
+    },
+    cloud: {
+        aws: ["EKS", "ECS", "Lambda (Provisioned Concurrency)", "S3", "API Gateway", "OpenSearch"],
+        gcp: ["Cloud Run", "Compute Engine", "BigQuery", "Cloud TTS", "Pub/Sub"],
+        other: ["Vercel", "Render"]
+    },
+    devops: {
+        container: ["Docker", "Kubernetes (Minikube)", "Docker Compose"],
+        ci_cd: ["GitHub Actions (Blue-Green)", "CircleCI"]
+    },
+    ai_ml: {
+        frameworks: ["LangChain", "LangGraph", "LlamaIndex"],
+        models: ["Groq (Llama 3.3 70B)", "OpenAI GPT-4o", "HuggingFace"],
+        rag: ["Qdrant", "Chroma", "Hybrid Search"],
+        agents: ["Multi-Agent Systems", "Tool Calling", "ReAct Pattern"]
+    },
     currentlyMastering: [
-        "Distributed Systems Design",
-        "Multi-Agent AI Architectures", 
-        "High-Performance Go Services",
-        "Real-Time Data Processing"
+        "Distributed Tracing (Jaeger/OpenTelemetry)",
+        "Chaos Engineering (Litmus)",
+        "Go Performance (PProf, Race Detector)",
+        "Vector Databases (pgvector)",
+        "eBPF for Observability"
     ]
 };
+
 ```
 
 ---
