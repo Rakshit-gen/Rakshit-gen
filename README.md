@@ -52,6 +52,18 @@ Fully automated pipeline that transforms any topic into a complete podcast episo
 
 ---
 
+### 🧠 [SynthForce](https://synth-force-fe.vercel.app/) – Synthetic Workforce Startup Simulator
+
+Multi-agent AI system that simulates an entire startup workforce—CEO, PM, Engineering Lead, Designer, Sales, and Support—collaborating, debating, and generating complete MVP roadmaps. Supports real-time agent discussions, market “what-if” simulations, and persistent memory timelines powered by Groq-accelerated LLMs.
+
+**Tech:** Next.js 15, Clerk Auth, Shadcn UI, TailwindCSS, Zustand, Framer Motion, FastAPI, Groq API, MongoDB, WebSockets, AWS/GCP
+
+**Repos:**  
+- **Backend:** https://github.com/Rakshit-gen/SynthForce  
+- **Frontend:** https://github.com/Rakshit-gen/SynthForce-fe
+
+---
+
 ### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
 
 High-performance distributed gateway with <10ms p50 latency, real-time SSE-powered analytics dashboard, token-bucket rate limiting, and round-robin load balancing. Tracks p95 latency, cache hit ratio, and error rates in real-time.
