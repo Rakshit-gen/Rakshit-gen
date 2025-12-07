@@ -127,45 +127,39 @@ Full-featured community platform with posts, voting, and media uploads. Integrat
 
 ```javascript
 const rakshit = {
-    backend: {
-        languages: ["Go (Chi Router, Fiber)", "Python (FastAPI, NestJS)", "Node.js (Express)"],
-        patterns: ["Microservices", "Event-Driven (Kafka/RQ)", "CQRS", "Saga Pattern"],
-        apis: ["REST", "GraphQL", "gRPC", "WebSockets"]
-    },
-    databases: {
-        sql: ["PostgreSQL (Sharding, Neon)", "MySQL"],
-        nosql: ["Redis (Pub/Sub, L1-L2 Caching, Streams)", "MongoDB", "DynamoDB"],
-        search: ["Elasticsearch/OpenSearch", "Qdrant (Vector DB)"],
-        optimization: ["Query Rewriting", "Materialized Views", "Connection Pooling"]
-    },
-    frontend: {
-        frameworks: ["Next.js 15 (App Router)", "React 19", "Vue.js 3"],
-        styling: ["Tailwind CSS", "Shadcn UI", "Styled Components"],
-        state: ["Zustand", "TanStack Query", "React Query"]
-    },
-    cloud: {
-        aws: ["EKS", "ECS", "Lambda (Provisioned Concurrency)", "S3", "API Gateway", "OpenSearch"],
-        gcp: ["Cloud Run", "Compute Engine", "BigQuery", "Cloud TTS", "Pub/Sub"],
-        other: ["Vercel", "Render"]
-    },
-    devops: {
-        container: ["Docker", "Kubernetes (Minikube)", "Docker Compose"],
-        ci_cd: ["GitHub Actions (Blue-Green)", "CircleCI"]
-    },
-    ai_ml: {
-        frameworks: ["LangChain", "LangGraph", "LlamaIndex"],
-        models: ["Groq (Llama 3.3 70B)", "OpenAI GPT-4o", "HuggingFace"],
-        rag: ["Qdrant", "Chroma", "Hybrid Search"],
-        agents: ["Multi-Agent Systems", "Tool Calling", "ReAct Pattern"]
-    },
-    currentlyMastering: [
-        "Distributed Tracing (Jaeger/OpenTelemetry)",
-        "Chaos Engineering (Litmus)",
-        "Go Performance (PProf, Race Detector)",
-        "Vector Databases (pgvector)",
-        "eBPF for Observability"
-    ]
+  backend: {
+    languages: ["Go", "Python (FastAPI)", "Node.js (Express)"],
+    patterns: ["Microservices", "Event-Driven", "CQRS", "Saga"],
+    apis: ["REST", "GraphQL", "gRPC", "WebSockets"]
+  },
+  databases: {
+    sql: ["PostgreSQL", "MySQL"],
+    nosql: ["Redis", "MongoDB", "DynamoDB"],
+    search: ["Elasticsearch/OpenSearch", "Qdrant"],
+    optimization: ["Query Rewriting", "Materialized Views", "Connection Pooling"]
+  },
+  frontend: {
+    frameworks: ["Next.js", "React", "Vue.js"],
+    styling: ["Tailwind CSS", "Shadcn UI"],
+    state: ["Zustand", "TanStack Query"]
+  },
+  cloud: {
+    aws: ["EKS", "ECS", "Lambda", "S3", "API Gateway", "OpenSearch"],
+    gcp: ["Cloud Run", "Compute Engine", "BigQuery", "Cloud TTS", "Pub/Sub"],
+    other: ["Vercel", "Render"]
+  },
+  devops: {
+    container: ["Docker", "Kubernetes"],
+    ci_cd: ["GitHub Actions", "CircleCI"]
+  },
+  ai_ml: {
+    frameworks: ["LangChain", "LangGraph", "LlamaIndex"],
+    models: ["Groq", "GPT‑4o", "Llama"],
+    rag: ["Qdrant", "Chroma", "Hybrid Search"],
+    agents: ["Multi-Agent Systems", "Tool Calling", "ReAct"]
+  }
 };
+
 
 ```
 
