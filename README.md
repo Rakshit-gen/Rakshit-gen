@@ -23,7 +23,7 @@
 
 AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
 
-What sets me apart: I focus on performance, clean architecture, and shipping features that move real metrics—like cutting critical query times by **40%** and delivering gateways with **sub-10ms p50 latency**.
+What sets me apart: I focus on performance, clean architecture, and shipping features that move real metrics—like cutting critical query times by **40%** and delivering gateways with **sub-50ms p50 latency**.
 
 **Current focus:**
 - Distributed systems and high-throughput event pipelines  
