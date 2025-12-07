@@ -21,7 +21,7 @@
 
 ## 👨‍💻 Who Am I?
 
-Backend engineer at **Wayground** (formerly Quizizz) building microservices that process **1M+ events/day**. I architect production systems in **Go** and **Python**, optimize database queries that handle millions of records, and design APIs that power platforms with **50K+ daily active users**.
+AI Backend engineer with experience at **Wayground** (formerly Quizizz) building microservices that process **1M+ events/day**. I architect production systems in **Go** and **Python**, optimize database queries that handle millions of records, and design APIs that power platforms with **50K+ daily active users**.
 
 **What sets me apart:** I don't just write code—I ship features that scale. From reducing query times by 40% to building multi-agent AI systems from scratch, I obsess over performance, reliability, and clean architecture.
 
