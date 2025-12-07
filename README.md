@@ -21,11 +21,15 @@
 
 ## 👨‍💻 Who Am I?
 
-AI Backend engineer with experience at **Wayground** (formerly Quizizz) building microservices that process **1M+ events/day**. I architect production systems in **Go** and **Python**, optimize database queries that handle millions of records, and design APIs that power platforms with **50K+ daily active users**.
+AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
 
-**What sets me apart:** I don't just write code—I ship features that scale. From reducing query times by 40% to building multi-agent AI systems from scratch, I obsess over performance, reliability, and clean architecture.
+What sets me apart: I focus on performance, clean architecture, and shipping features that move real metrics—like cutting critical query times by **40%** and delivering gateways with **sub-10ms p50 latency**.
 
-**Current focus:** Distributed systems, multi-agentic AI, and high-performance backend engineering.
+**Current focus:**
+- Distributed systems and high-throughput event pipelines  
+- Multi-agent AI systems for real products  
+- Deep performance tuning across DB, cache, and network layers  
+
 
 ![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
 
