@@ -56,11 +56,7 @@ Fully automated pipeline that transforms any topic into a complete podcast episo
 
 Multi-agent AI system that simulates an entire startup workforce—CEO, PM, Engineering Lead, Designer, Sales, and Support—collaborating, debating, and generating complete MVP roadmaps. Supports real-time agent discussions, market “what-if” simulations, and persistent memory timelines powered by Groq-accelerated LLMs.
 
-**Tech:** Next.js 15, Clerk Auth, Shadcn UI, TailwindCSS, Zustand, Framer Motion, FastAPI, Groq API, MongoDB, WebSockets, AWS/GCP
-
-**Repos:**  
-- **Backend:** https://github.com/Rakshit-gen/SynthForce  
-- **Frontend:** https://github.com/Rakshit-gen/SynthForce-fe
+**Tech:** FastAPI, Groq API, MongoDB, WebSockets, Next.js 15, Clerk Auth, Shadcn UI, TailwindCSS, Zustand, Framer Motion
 
 **Repos:** [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
 
