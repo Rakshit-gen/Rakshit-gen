@@ -62,6 +62,8 @@ Multi-agent AI system that simulates an entire startup workforce—CEO, PM, Engi
 - **Backend:** https://github.com/Rakshit-gen/SynthForce  
 - **Frontend:** https://github.com/Rakshit-gen/SynthForce-fe
 
+**Repos:** [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
+
 ---
 
 ### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
