@@ -19,7 +19,7 @@
 
 <br />
 
-## 👨‍💻 Who Am I?
+## Who Am I?
 
 AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
 
@@ -31,7 +31,7 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 - Deep performance tuning across DB, cache, and network layers  
 
 
-## 🏆 Open Source Contributions
+## Open Source Contributions
 <table>
 <thead>
 <tr>
@@ -44,17 +44,17 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 <tbody>
 
 <tr>
-<td rowspan="2">
+<td rowspan="3">
 <a href="https://github.com/deepspeedai/DeepSpeed"><b>DeepSpeed</b></a><br/>
 <sub>Microsoft Research</sub>
 </td>
 <td>
 <a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">
-Fix PEFT model crash by handling wrapped HF model structure
+Fix crash when using PEFT-wrapped Hugging Face models
 </a>
 </td>
 <td>
-Prevents runtime crashes when using PEFT (LoRA) with DeepSpeed attention
+Prevents runtime crashes when using LoRA / PEFT with DeepSpeed attention
 </td>
 <td>
 <img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
@@ -64,11 +64,25 @@ Prevents runtime crashes when using PEFT (LoRA) with DeepSpeed attention
 <tr>
 <td>
 <a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">
-Fix sqrt LR scaling TypeError in dynamic batching
+Fix TypeError in sqrt LR scaling with dynamic batching
 </a>
 </td>
 <td>
-Restores training stability for dynamic batch size LR scaling
+Restores correct learning-rate scaling and training stability
+</td>
+<td>
+<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="#">
+Fix NaN propagation in OnebitLamb optimizer with empty parameters
+</a>
+</td>
+<td>
+Improves numerical stability in distributed optimizer edge cases
 </td>
 <td>
 <img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
@@ -82,11 +96,11 @@ Restores training stability for dynamic batch size LR scaling
 </td>
 <td>
 <a href="https://github.com/calcom/cal.com/pull/25941">
-Allow org signup with existing usernames
+Allow organizations to sign up with existing usernames
 </a>
 </td>
 <td>
-Unblocked enterprise org onboarding and SSO integrations
+Unblocked enterprise onboarding and production integrations
 </td>
 <td>
 <img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
@@ -115,11 +129,12 @@ Ensures correct state recovery for production agent workflows
 </table>
 
 
+
 <br/>
 
 ---
 
-## 🏆 Competitive Programming Edge
+## Competitive Programming Edge
 
 - **LeetCode:** 1828 rating (Top 6.5% globally)
 - **CodeChef:** 5⭐ rating
@@ -127,7 +142,7 @@ Ensures correct state recovery for production agent workflows
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 
 ### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
@@ -211,7 +226,7 @@ Full-featured community platform with posts, voting, and media uploads. Integrat
 ---
 
 
-## 🛠️ Technical Arsenal
+## Technical Arsenal
 
 ```javascript
 const rakshit = {
@@ -253,7 +268,7 @@ const rakshit = {
 
 ---
 
-## 📈 GitHub Analytics
+## GitHub Analytics
 
 <!-- Activity Graph -->
 <p align="center">
