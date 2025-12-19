@@ -28,7 +28,7 @@
   <a href="#github-analytics">GitHub</a>
 </p>
 
-<hr/>
+
 
 
 ## Who Am I?
@@ -42,6 +42,7 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 - Multi-agent AI systems for real products  
 - Deep performance tuning across DB, cache, and network layers  
 
+<hr/>
 
 ## Open Source Contributions
 <table>
