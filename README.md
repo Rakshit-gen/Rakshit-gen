@@ -45,13 +45,15 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 <tbody>
 <tr>
 <td><a href="https://github.com/deepspeedai/DeepSpeed"><b>DeepSpeed</b></a><br/><sub>Microsoft Research</sub></td>
-<td><a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">Fixed CUDA kernel compilation errors</a><br/><a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">Resolved memory leaks in distributed training</a></td>
+<td><a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">Fixed a crash by correctly handling PEFT-wrapped models instead of assuming a raw Hugging Face model structure.
+</a><br/><a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">Fixes a TypeError in dynamic LR scaling by replacing `torch.sqrt` with `math.sqrt`, since `batch_size / base_batch_size` is a Python float and not a Torch tensor.
+</a></td>
 <td>Improved stability for multi-GPU training workloads at scale</td>
 <td><img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" /></td>
 </tr>
 <tr>
 <td><a href="https://github.com/calcom/cal.com"><b>Cal.com</b></a><br/><sub>Scheduling Infrastructure</sub></td>
-<td><a href="https://github.com/calcom/cal.com/pull/25941">Fixed webhook payload serialization bug</a></td>
+<td><a href="https://github.com/calcom/cal.com/pull/25941">allow organizations to sign up with existing usernames</a></td>
 <td>Resolved production integration failures for enterprise customers</td>
 <td><img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" /></td>
 </tr>
