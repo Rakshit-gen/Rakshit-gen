@@ -19,7 +19,7 @@
 
 <br />
 
-<p align="center">
+<p align="center" display="flex">
   <a href="#who-am-i">Who Am I</a> •
   <a href="#open-source-contributions">Open Source</a> •
   <a href="#competitive-programming-edge">Competitive Programming</a> •
