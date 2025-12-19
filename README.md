@@ -32,42 +32,88 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 
 
 ## 🏆 Open Source Contributions
-
 <table>
 <thead>
 <tr>
-<th width="20%">Repository</th>
-<th width="35%">Contribution</th>
-<th width="30%">Impact</th>
+<th width="18%">Repository</th>
+<th width="42%">Pull Request</th>
+<th width="25%">Impact</th>
 <th width="15%">Status</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td><a href="https://github.com/deepspeedai/DeepSpeed"><b>DeepSpeed</b></a><br/><sub>Microsoft Research</sub></td>
-<td><a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">Fixed a crash by correctly handling PEFT-wrapped models instead of assuming a raw Hugging Face model structure.
 
-</a><br/><a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">Fixes a TypeError in dynamic LR scaling by replacing `torch.sqrt` with `math.sqrt`, since `batch_size / base_batch_size` is a Python float and not a Torch tensor.
-</a></td>
-<td>Improved stability for multi-GPU training workloads at scale</td>
-<td><img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" /></td>
-</tr>
 <tr>
-<td><a href="https://github.com/calcom/cal.com"><b>Cal.com</b></a><br/><sub>Scheduling Infrastructure</sub></td>
-<td><a href="https://github.com/calcom/cal.com/pull/25941">Allows organizations to reuse existing usernames by removing the global uniqueness constraint and scoping username uniqueness to organization accounts only.
-</a></td>
-<td>Resolved production integration failures for enterprise customers</td>
-<td><img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" /></td>
+<td rowspan="2">
+<a href="https://github.com/deepspeedai/DeepSpeed"><b>DeepSpeed</b></a><br/>
+<sub>Microsoft Research</sub>
+</td>
+<td>
+<a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">
+Fix PEFT model crash by handling wrapped HF model structure
+</a>
+</td>
+<td>
+Prevents runtime crashes when using PEFT (LoRA) with DeepSpeed attention
+</td>
+<td>
+<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
+</td>
 </tr>
+
 <tr>
-<td><a href="https://github.com/langchain-ai/langgraph"><b>LangGraph</b></a><br/><sub>LangChain AI</sub></td>
-<td><a href="https://github.com/langchain-ai/langgraph/pull/6602">Fixes checkpoint serialization so `StrEnum` values aren’t downgraded to plain strings, preserving enum types across save/load by correctly recognizing `StrEnum` (with Python <3.11 fallback).
-</a></td>
-<td>Improved real-time response handling for production agent workflows</td>
-<td><img src="https://img.shields.io/badge/Under_Review-FFA116?style=flat-square" /></td>
+<td>
+<a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">
+Fix sqrt LR scaling TypeError in dynamic batching
+</a>
+</td>
+<td>
+Restores training stability for dynamic batch size LR scaling
+</td>
+<td>
+<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
+</td>
 </tr>
+
+<tr>
+<td>
+<a href="https://github.com/calcom/cal.com"><b>Cal.com</b></a><br/>
+<sub>Scheduling Infrastructure</sub>
+</td>
+<td>
+<a href="https://github.com/calcom/cal.com/pull/25941">
+Allow org signup with existing usernames
+</a>
+</td>
+<td>
+Unblocked enterprise org onboarding and SSO integrations
+</td>
+<td>
+<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="https://github.com/langchain-ai/langgraph"><b>LangGraph</b></a><br/>
+<sub>LangChain AI</sub>
+</td>
+<td>
+<a href="https://github.com/langchain-ai/langgraph/pull/6602">
+Preserve StrEnum types during checkpoint serialization
+</a>
+</td>
+<td>
+Ensures correct state recovery for production agent workflows
+</td>
+<td>
+<img src="https://img.shields.io/badge/Under_Review-FFA116?style=flat-square" />
+</td>
+</tr>
+
 </tbody>
 </table>
+
 
 <br/>
 
