@@ -19,6 +19,18 @@
 
 <br />
 
+<p align="center">
+  <a href="#who-am-i">Who Am I</a> •
+  <a href="#open-source-contributions">Open Source</a> •
+  <a href="#competitive-programming-edge">Competitive Programming</a> •
+  <a href="#featured-projects">Projects</a> •
+  <a href="#technical-arsenal">Tech Stack</a> •
+  <a href="#github-analytics">GitHub</a>
+</p>
+
+<hr/>
+
+
 ## Who Am I?
 
 AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
