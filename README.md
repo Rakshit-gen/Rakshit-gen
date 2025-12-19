@@ -1,195 +1,141 @@
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Backend+Engineer+%7C+System+Designer;Shipping+Production-Grade+Software;Building+at+50K%2B+DAU+Scale" alt="Typing SVG" />
-  </a>
-</p>
+# Rakshit Sisodiya
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Rakshit-gen&label=Profile%20views&color=F75C7E&style=flat-square" alt="profile views" />
-</p>
+**Backend Engineer | System Designer | Competitive Programmer**
 
-<h3 align="center">AI Backend Engineer</h3>
-
-<p align="center">
-  <a href="https://rakshit-portfolio-one.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-e75480?style=for-the-badge&logo=rocket&logoColor=black" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/rakshit-sisodiya/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=black" alt="LinkedIn" /></a>
-  <a href="https://leetcode.com/sisodiarakshit456/"><img src="https://img.shields.io/badge/LeetCode_1828-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="Leetcode" /></a>
-  <a href="https://www.codechef.com/users/rakshit1110"><img src="https://img.shields.io/badge/CodeChef_5⭐-5B4638?style=for-the-badge&logo=codechef&logoColor=black" alt="CodeChef" /></a>
-</p>
-
-<br />
-
-## 👨‍💻 Who Am I?
-
-AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
-
-What sets me apart: I focus on performance, clean architecture, and shipping features that move real metrics—like cutting critical query times by **40%** and delivering gateways with **sub-50ms p50 latency**.
-
-**Current focus:**
-- Distributed systems and high-throughput event pipelines  
-- Multi-agent AI systems for real products  
-- Deep performance tuning across DB, cache, and network layers  
-
-
-![Snake animation](https://github.com/Rakshit-gen/Rakshit-gen/blob/output/snake.svg)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=flat-square)](https://rakshit-portfolio-one.vercel.app/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square)](https://www.linkedin.com/in/rakshit-sisodiya/) [![LeetCode 1828](https://img.shields.io/badge/LeetCode_1828-FFA116?style=flat-square)](https://leetcode.com/sisodiarakshit456/) [![CodeChef 5⭐](https://img.shields.io/badge/CodeChef_5⭐-5B4638?style=flat-square)](https://www.codechef.com/users/rakshit1110)
 
 ---
 
-## 🏆 Competitive Programming Edge
+## Profile
 
-- **LeetCode:** 1828 rating (Top 6.5% globally)
-- **CodeChef:** 5⭐ rating
-- **Philosophy:** Algorithmic problem-solving isn't just a hobby—it's how I approach system design, optimize database queries, and debug production issues.
+Backend engineer with production experience building and operating microservices at **50K+ DAU scale** and **1M+ events/day** throughput. Ship Go/Python systems with measurable performance improvements: 40% query optimization, sub-50ms API latency, 60% faster code reviews through AI automation.
 
----
-
-## 🚀 Featured Projects
-
-
-### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
-
-Fully automated pipeline that transforms any topic into a complete podcast episode with AI-generated scripts, voice synthesis, and downloadable audio. Features vector search for context-aware content, Redis queue workers for async processing, and real-time progress tracking.
-
-**Tech:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, GCP TTS, AWS S3
-
-**Repo:** [NevraAI](https://github.com/Rakshit-gen/nerva)
+**Current focus:** Distributed systems, multi-agent AI architectures, performance optimization across database/cache/network layers.
 
 ---
 
-### 🧠 [SynthForce](https://synth-force-fe.vercel.app/) – Synthetic Workforce Startup Simulator
+## Core Competencies
 
-Multi-agent AI system that simulates an entire startup workforce—CEO, PM, Engineering Lead, Designer, Sales, and Support—collaborating, debating, and generating complete MVP roadmaps. Supports real-time agent discussions, market “what-if” simulations, and persistent memory timelines powered by Groq-accelerated LLMs.
+| Domain | Technologies |
+|--------|-------------|
+| **Backend** | Go (Chi, Fiber), Python (FastAPI), Node.js (Express) |
+| **Databases** | PostgreSQL, Redis, MongoDB, Elasticsearch, Qdrant |
+| **Architecture** | Microservices, Event-Driven, CQRS, WebSockets, gRPC |
+| **Cloud** | AWS (EKS, Lambda, S3, OpenSearch), GCP (Cloud Run, BigQuery, Pub/Sub) |
+| **DevOps** | Docker, Kubernetes, GitHub Actions, CircleCI |
+| **AI/ML** | LangChain, LangGraph, Groq, GPT-4o, Multi-Agent Systems, RAG |
+| **Frontend** | Next.js 15, React, TypeScript, Zustand, TanStack Query, Shadcn UI |
 
-**Tech:** FastAPI, Groq API, MongoDB, WebSockets, Next.js 15, Clerk Auth, Shadcn UI, TailwindCSS, Zustand, Framer Motion
+---
 
+## Production Projects
+
+### [NevraAI](https://nervaai.vercel.app/) – AI Podcast Generator
+End-to-end automated pipeline: topic → AI script generation → multi-voice synthesis → downloadable audio. Vector search for context retrieval, Redis RQ for async job processing, real-time progress tracking.
+
+**Stack:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant, HuggingFace, GCP TTS, AWS S3  
+**Repo:** [nerva](https://github.com/Rakshit-gen/nerva)
+
+---
+
+### [SynthForce](https://synth-force-fe.vercel.app/) – Synthetic Workforce Simulator
+Multi-agent AI system simulating 6-person startup team (CEO, PM, Eng Lead, Designer, Sales, Support). Generates complete MVP roadmaps through agent debates, "what-if" scenarios, persistent memory timelines.
+
+**Stack:** FastAPI, Groq API, MongoDB, WebSockets, Next.js 15, Clerk Auth  
 **Repos:** [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
 
 ---
 
-### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
+### [VantageEdge](https://vantageedge.vercel.app/) – API Gateway
+Distributed gateway with <10ms p50 latency. Real-time SSE dashboard tracking p95 latency, cache hit ratio, error rates. Token-bucket rate limiting, round-robin load balancing.
 
-High-performance distributed gateway with <10ms p50 latency, real-time SSE-powered analytics dashboard, token-bucket rate limiting, and round-robin load balancing. Tracks p95 latency, cache hit ratio, and error rates in real-time.
-
-**Tech:** Go, Chi Router, Redis, PostgreSQL (Neon), Next.js, Shadcn UI, TanStack Query
-
+**Stack:** Go (Chi), Redis, PostgreSQL (Neon), Next.js, SSE  
 **Repos:** [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
 
 ---
 
-### 🧩 [SyncLayer](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board
+### [SyncLayer](https://sync-layer.vercel.app/) – Real-Time Collaborative Board
+Multi-user task board with WebSocket synchronization, Redis Pub/Sub for state broadcast, drag-and-drop workflows, role-based access control, activity logging.
 
-Production-grade collaborative board with WebSocket-powered multi-user editing, drag-and-drop workflows, and Redis Pub/Sub for real-time broadcast. Clean architecture with role-based UI enforcement and activity logging.
-
-**Tech:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand, TailwindCSS, shadcn UI
-
+**Stack:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand  
 **Repos:** [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
 
 ---
 
-### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
+### [SentralQ](https://api-analyse-fe.vercel.app/) – AI API Debugger
+Multi-agent system diagnosing API integration failures. LangGraph-powered reasoning isolates auth errors, schema mismatches, network faults. Streaming responses with executable fixes.
 
-Multi-agent AI system that diagnoses API integration issues and suggests executable fixes in seconds. LangGraph-powered reasoning isolates auth errors, schema mismatches, and network faults with streaming responses.
-
-**Tech:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq LLMs, FastAPI
-
+**Stack:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq, FastAPI  
 **Repos:** [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
 ---
 
-### 🤖 [Aegis](https://www.aegisagent.online) – Multi-Agentic Code Analysis Platform
+### [Aegis](https://www.aegisagent.online) – Multi-Agent Code Analysis
+Autonomous PR review and codebase analysis using Groq's Llama 3.3 70B. Scans for architectural flaws, security vulnerabilities, code quality issues. 60% reduction in manual review time.
 
-Autonomous AI agent system powered by Groq's Llama 3.3 70B for comprehensive codebase analysis and PR reviews. Scans repositories for architectural flaws, security vulnerabilities, and code quality issues. Reduces code review time by 60%.
-
-**Tech:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js, Shadcn UI
-
-**Repos:** [PR Review Agent](https://github.com/Rakshit-gen/agent-prm) | [Codebase Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
+**Stack:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js  
+**Repos:** [PR Review](https://github.com/Rakshit-gen/agent-prm) | [Code Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
 
 ---
 
-### 🎯 [Slanine](https://www.slanine.online/) – Full-Stack SaaS Platform
+### [Slanine](https://www.slanine.online/) – SaaS Platform
+Production SaaS with 25+ productivity tools, Stripe payments, AI features. <200ms API responses via query optimization, 3x page load improvement through Redis caching.
 
-Production SaaS with 25+ productivity tools, Stripe payments, and AI-powered features. Optimized PostgreSQL queries for <200ms API responses and implemented Redis caching for 3x faster page loads.
-
-**Tech:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker
-
+**Stack:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker  
 **Repo:** [Slanine](https://github.com/Rakshit-gen/Slanine)
 
 ---
 
-### 🗨️ [Qme](https://flyuphigh.vercel.app/) – Reddit-Style Community Platform
+### [Qme](https://flyuphigh.vercel.app/) – Community Platform
+Reddit-style platform with posts, voting, media uploads. Redis caching reduced page load by 42% (2.1s → 1.2s).
 
-Full-featured community platform with posts, voting, and media uploads. Integrated Redis caching to reduce page load times by 42% (from 2.1s to 1.2s average).
-
-**Tech:** Next.js, Redis, MongoDB, REST APIs
-
+**Stack:** Next.js, Redis, MongoDB, REST APIs  
 **Repo:** [Qme](https://github.com/Rakshit-gen/Questme)
 
 ---
 
+## Open Source Contributions
 
-## 🛠️ Technical Arsenal
-
-```javascript
-const rakshit = {
-  backend: {
-    languages: ["Go", "Python (FastAPI)", "Node.js (Express)"],
-    patterns: ["Microservices", "Event-Driven", "CQRS", "Saga"],
-    apis: ["REST", "GraphQL", "gRPC", "WebSockets"]
-  },
-  databases: {
-    sql: ["PostgreSQL", "MySQL"],
-    nosql: ["Redis", "MongoDB", "DynamoDB"],
-    search: ["Elasticsearch/OpenSearch", "Qdrant"],
-    optimization: ["Query Rewriting", "Materialized Views", "Connection Pooling"]
-  },
-  frontend: {
-    frameworks: ["Next.js", "React", "Vue.js"],
-    styling: ["Tailwind CSS", "Shadcn UI"],
-    state: ["Zustand", "TanStack Query"]
-  },
-  cloud: {
-    aws: ["EKS", "ECS", "Lambda", "S3", "API Gateway", "OpenSearch"],
-    gcp: ["Cloud Run", "Compute Engine", "BigQuery", "Cloud TTS", "Pub/Sub"],
-    other: ["Vercel", "Render"]
-  },
-  devops: {
-    container: ["Docker", "Kubernetes"],
-    ci_cd: ["GitHub Actions", "CircleCI"]
-  },
-  ai_ml: {
-    frameworks: ["LangChain", "LangGraph", "LlamaIndex"],
-    models: ["Groq", "GPT‑4o", "Llama"],
-    rag: ["Qdrant", "Chroma", "Hybrid Search"],
-    agents: ["Multi-Agent Systems", "Tool Calling", "ReAct"]
-  }
-};
-
-
-```
+| Repository | Role | Contribution | Impact |
+|------------|------|--------------|---------|
+| [LangChain](https://github.com/langchain-ai/langchain) | Contributor | Fixed streaming bug in LangGraph agent executor | Merged PR improving reliability for production agent systems |
+| [FastAPI](https://github.com/tiangolo/fastapi) | Contributor | Documentation improvements for WebSocket handling | Enhanced clarity for real-time API patterns |
+| [Qdrant](https://github.com/qdrant/qdrant) | Community | Vector search optimization examples | Reference implementations for hybrid search |
 
 ---
 
-## 📈 GitHub Analytics
+## Competitive Programming
 
-<!-- Activity Graph -->
-<p align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true" alt="Rakshit's github activity graph" />
-  </a>
-</p>
+| Platform | Rating | Percentile | Focus |
+|----------|--------|-----------|-------|
+| LeetCode | 1828 | Top 6.5% globally | Algorithm optimization, system design intuition |
+| CodeChef | 5⭐ | Top tier | Data structures, competitive problem-solving |
 
-<!-- Trophy Collection -->
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=rakshit-gen)" />
-  </a>
-</p>
+**Application:** Algorithmic thinking directly informs query optimization, distributed system design, and production debugging.
 
 ---
 
-<p align="center">
-  <i>"It’s not who I am underneath, but what I do that defines me."</i>
-</p>
+## Professional Experience
 
+**Software Engineer** | HSV Digital | Gurugram | 2025 – Present  
+Backend engineering with modern tech stacks, distributed systems, performance optimization.
+
+**Software Engineer** | Wayground (formerly Quizizz) | Remote | 2024 – 2025  
+- Built Go/Python microservices serving 50K+ DAU, processing 100K+ events/day
+- Optimized critical queries by 40% through indexing and query rewriting
+- Shipped features impacting core product metrics
 
 ---
+
+## Education
+
+**B.Tech Computer Science** | NIT Hamirpur | 2021 – 2025
+
+---
+
+## Contact
+
+📧 sisodiarakshit456@gmail.com  
+🌐 [Portfolio](https://rakshit-portfolio-one.vercel.app/)  
+💼 [LinkedIn](https://www.linkedin.com/in/rakshit-sisodiya/)  
+🐙 [GitHub](https://github.com/Rakshit-gen)
