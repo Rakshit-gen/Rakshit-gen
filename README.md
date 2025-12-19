@@ -57,7 +57,7 @@ Fix PEFT model crash by handling wrapped HF model structure
 Prevents runtime crashes when using PEFT (LoRA) with DeepSpeed attention
 </td>
 <td>
-<img src="https://img.shields.io/badge/Under_Review-FFA116?style=flat-square" />
+<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
 </td>
 </tr>
 
@@ -107,7 +107,7 @@ Preserve StrEnum types during checkpoint serialization
 Ensures correct state recovery for production agent workflows
 </td>
 <td>
-<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
+<img src="https://img.shields.io/badge/Under_Review-FFA116?style=flat-square" />
 </td>
 </tr>
 
