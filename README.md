@@ -293,7 +293,7 @@ const rakshit = {
 <!-- Trophy Collection -->
 <p align="center">
   <a href="https://github.com/rakshit-gen">
-    <img src="https://github-readme-stats.vercel.app/api?username=rakshit-gen&show_icons=true&theme=react-dark&hide_border=true&include_all_commits=true&count_private=true" alt="Rakshit's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=rakshit-gen&show_icons=true&theme=react&hide_border=true&include_all_commits=true&count_private=true&bg_color=20232a&title_color=61dafb&icon_color=61dafb&text_color=ffffff" alt="Rakshit's GitHub Stats" />
   </a>
 </p>
 
