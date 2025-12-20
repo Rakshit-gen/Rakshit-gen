@@ -59,7 +59,7 @@ High-performance training infrastructure used at scale for large models.
 
 - **Fix NaN propagation in OneBitLamb optimizer (empty parameters)**  
   Improved numerical stability for distributed optimizer edge cases with filtered parameter groups.  
-  **Merged**
+  [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · **Merged**
 
 ---
 
