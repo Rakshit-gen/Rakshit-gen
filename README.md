@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Backend+Engineer+%7C+System+Designer;Shipping+Production-Grade+Software;Building+at+50K%2B+DAU+Scale" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Hey+there%2C+I'm+Rakshit+%F0%9F%91%8B;Backend+Engineer+%7C+System+Designer;Shipping+Production-Grade+Software;Building+at+5M%2B+DAU+Scale" alt="Typing SVG" />
   </a>
 </p>
 
@@ -33,7 +33,7 @@
 
 ## Who Am I?
 
-AI Backend Engineer building and operating production systems handling **1M+ events/day** and **50K+ DAU**. I ship high-throughput services in **Go** and **Python**, optimize queries over millions of rows, and design APIs that stay fast under load.
+AI Backend Engineer building and operating production systems handling **1M+ events/day** and **5M+ DAU**. I ship high-throughput services in **Go** and **Python**, optimize queries over millions of rows, and design APIs that stay fast under load.
 
 Focused on **measurable impact**: ~**40%** query latency reductions and **sub-50ms p50** API gateways.  
 Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**, fixing real production issues in widely used systems.
