@@ -88,43 +88,42 @@ Framework for building and checkpointing agentic workflows.
 **NevraAI** — AI-generated podcast pipeline  
 End-to-end system converting topics → scripts → voice → audio with async processing and vector search.  
 *(FastAPI, Next.js, PostgreSQL, Redis, Qdrant, HuggingFace, GCP TTS)*  
-Repo: [NevraAI](https://github.com/Rakshit-gen/nerva)
+Demo: [Live](https://nervaai.vercel.app/) · Repo: [GitHub](https://github.com/Rakshit-gen/nerva)
 
 **SynthForce** — Multi-agent startup simulator  
-AI agents (CEO, PM, Eng, Sales) collaborate to generate MVP roadmaps and market simulations in real time.  
+AI agents collaborate to generate MVP roadmaps and market simulations in real time.  
 *(FastAPI, Groq, MongoDB, WebSockets, Next.js)*  
-Repos: [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
+Demo: [Live](https://synth-force-fe.vercel.app/) · Repos: [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
 
 **VantageEdge** — Low-latency API gateway  
 <10ms p50 gateway with rate limiting, load balancing, and real-time SSE analytics.  
 *(Go, Redis, PostgreSQL, Next.js)*  
-Repos: [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
+Demo: [Live](https://vantageedge.vercel.app/) · Repos: [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
 
 **SyncLayer** — Real-time collaborative board  
 Multi-user editing with WebSockets, Redis Pub/Sub, role-based access, and activity logs.  
 *(Go, PostgreSQL, Redis, Next.js)*  
-Repos: [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
+Demo: [Live](https://sync-layer.vercel.app/) · Repos: [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
 
 **SentralQ** — AI API debugger  
 Agentic system diagnosing auth, schema, and network failures with executable fixes.  
 *(LangGraph, FastAPI, Next.js, Groq)*  
-Repos: [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
+Demo: [Live](https://api-analyse-fe.vercel.app/) · Repos: [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
 
 **Aegis** — Autonomous code review agents  
 LLM-powered agents analyzing codebases for architecture, security, and quality issues.  
 *(Python, FastAPI, Redis, Groq Llama 3.3)*  
-Repos: [PR Agent](https://github.com/Rakshit-gen/agent-prm) | [Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
+Demo: [Live](https://www.aegisagent.online) · Repos: [PR Agent](https://github.com/Rakshit-gen/agent-prm) | [Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
 
 **Slanine** — Production SaaS platform  
 25+ tools, Stripe payments, Redis caching, sub-200ms APIs.  
 *(Next.js, PostgreSQL, Docker)*  
-Repo: [Slanine](https://github.com/Rakshit-gen/Slanine)
+Demo: [Live](https://www.slanine.online/) · Repo: [GitHub](https://github.com/Rakshit-gen/Slanine)
 
 **Qme** — Community platform  
 Posts, voting, media uploads with Redis caching (-42% load time).  
 *(Next.js, Redis, MongoDB)*  
-Repo: [Qme](https://github.com/Rakshit-gen/Questme)
-
+Demo: [Live](https://flyuphigh.vercel.app/) · Repo: [GitHub](https://github.com/Rakshit-gen/Questme)
 
 
 
