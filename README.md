@@ -45,103 +45,40 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 <hr/>
 
 ## Open Source Contributions
-<table>
-<thead>
-<tr>
-<th width="18%">Repository</th>
-<th width="42%">Pull Request</th>
-<th width="25%">Impact</th>
-<th width="15%">Status</th>
-</tr>
-</thead>
-<tbody>
+## Open Source Contributions (Selected)
 
-<tr>
-<td rowspan="3">
-<a href="https://github.com/deepspeedai/DeepSpeed"><b>DeepSpeed</b></a><br/>
-<sub>Microsoft Research</sub>
-</td>
-<td>
-<a href="https://github.com/deepspeedai/DeepSpeed/pull/7737">
-Fix crash when using PEFT-wrapped Hugging Face models
-</a>
-</td>
-<td>
-Prevents runtime crashes when using LoRA / PEFT with DeepSpeed attention
-</td>
-<td>
-<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
-</td>
-</tr>
+### DeepSpeed (Microsoft Research)
+High-performance training infrastructure used at scale for large models.
 
-<tr>
-<td>
-<a href="https://github.com/deepspeedai/DeepSpeed/pull/7735">
-Fix TypeError in sqrt LR scaling with dynamic batching
-</a>
-</td>
-<td>
-Restores correct learning-rate scaling and training stability
-</td>
-<td>
-<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
-</td>
-</tr>
+- **Fix crash with PEFT / LoRA-wrapped Hugging Face models**  
+  Prevented runtime crashes when combining DeepSpeed attention with PEFT adapters.  
+  [PR #7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) · **Merged**
 
-<tr>
-<td>
-<a href="#">
-Fix NaN propagation in OnebitLamb optimizer with empty parameters
-</a>
-</td>
-<td>
-Improves numerical stability in distributed optimizer edge cases
-</td>
-<td>
-<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
-</td>
-</tr>
+- **Fix TypeError in sqrt LR scaling with dynamic batching**  
+  Restored correct learning-rate scaling and training stability under dynamic batch sizes.  
+  [PR #7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) · **Merged**
 
-<tr>
-<td>
-<a href="https://github.com/calcom/cal.com"><b>Cal.com</b></a><br/>
-<sub>Scheduling Infrastructure</sub>
-</td>
-<td>
-<a href="https://github.com/calcom/cal.com/pull/25941">
-Allow organizations to sign up with existing usernames
-</a>
-</td>
-<td>
-Unblocked enterprise onboarding and production integrations
-</td>
-<td>
-<img src="https://img.shields.io/badge/Merged-28a745?style=flat-square" />
-</td>
-</tr>
+- **Fix NaN propagation in OneBitLamb optimizer (empty parameters)**  
+  Improved numerical stability for distributed optimizer edge cases with filtered parameter groups.  
+  **Merged**
 
-<tr>
-<td>
-<a href="https://github.com/langchain-ai/langgraph"><b>LangGraph</b></a><br/>
-<sub>LangChain AI</sub>
-</td>
-<td>
-<a href="https://github.com/langchain-ai/langgraph/pull/6602">
-Preserve StrEnum types during checkpoint serialization
-</a>
-</td>
-<td>
-Ensures correct state recovery for production agent workflows
-</td>
-<td>
-<img src="https://img.shields.io/badge/Under_Review-FFA116?style=flat-square" />
-</td>
-</tr>
+---
 
-</tbody>
-</table>
+### Cal.com
+Open-source scheduling infrastructure powering production teams and enterprises.
 
+- **Allow organizations to sign up with existing usernames**  
+  Unblocked enterprise onboarding and resolved production integration constraints.  
+  [PR #25941](https://github.com/calcom/cal.com/pull/25941) · **Merged**
 
+---
+
+### LangGraph (LangChain AI)
+Framework for building and checkpointing agentic workflows.
+
+- **Preserve `StrEnum` types during checkpoint serialization**  
+  Ensured correct state recovery and reproducibility in long-running agent workflows.  
+  [PR #6602](https://github.com/langchain-ai/langgraph/pull/6602) · **Under Review**
 
 <br/>
 
