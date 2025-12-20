@@ -85,8 +85,6 @@ Framework for building and checkpointing agentic workflows.
 
 ## Featured Projects
 
-## Featured Projects
-
 **NevraAI** — AI-generated podcast pipeline  
 End-to-end system converting topics → scripts → voice → audio with async processing and vector search.  
 *(FastAPI, Next.js, PostgreSQL, Redis, Qdrant, HuggingFace, GCP TTS)*  
