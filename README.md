@@ -147,96 +147,48 @@ Ensures correct state recovery for production agent workflows
 
 ---
 
-## Competitive Programming Edge
-
-- **LeetCode:** 1828 rating (Top 6.5% globally)
-- **CodeChef:** 5⭐ rating
-- **Philosophy:** Algorithmic problem-solving isn't just a hobby—it's how I approach system design, optimize database queries, and debug production issues.
-
----
-
 ## Featured Projects
 
+**NevraAI** — AI-generated podcast pipeline  
+End-to-end system converting topics → scripts → voice → audio with async processing and vector search.  
+*FastAPI, Next.js, PostgreSQL, Redis, AWS S3, Qdrant, HuggingFace, GCP TTS*  
+Repo: https://github.com/Rakshit-gen/nerva
 
-### 🎙️ [NevraAI](https://nervaai.vercel.app/) – AI-Generated Podcast Platform
+**SynthForce** — Multi-agent startup simulator  
+AI agents (CEO, PM, Eng, Sales) collaborate to generate MVP roadmaps and market simulations in real time.  
+*FastAPI, Groq, MongoDB, WebSockets, Next.js*  
+Repos: https://github.com/Rakshit-gen/SynthForce | https://github.com/Rakshit-gen/SynthForce-fe
 
-Fully automated pipeline that transforms any topic into a complete podcast episode with AI-generated scripts, voice synthesis, and downloadable audio. Features vector search for context-aware content, Redis queue workers for async processing, and real-time progress tracking.
+**VantageEdge** — Low-latency API gateway  
+<10ms p50 gateway with rate limiting, load balancing, and real-time SSE analytics.  
+*Go, Redis, PostgreSQL, Next.js*  
+Repos: https://github.com/Rakshit-gen/vantageEdge | https://github.com/Rakshit-gen/vantageedge-fe
 
-**Tech:** FastAPI, Next.js, PostgreSQL, Redis RQ, Qdrant Vector DB, HuggingFace, GCP TTS, AWS S3
+**SyncLayer** — Real-time collaborative board  
+Multi-user editing with WebSockets, Redis Pub/Sub, role-based access, and activity logs.  
+*Go, PostgreSQL, Redis, Next.js*  
+Repos: https://github.com/Rakshit-gen/SyncLayer | https://github.com/Rakshit-gen/SyncLayer-fe
 
-**Repo:** [NevraAI](https://github.com/Rakshit-gen/nerva)
+**SentralQ** — AI API debugger  
+Agentic system diagnosing auth, schema, and network failures with executable fixes.  
+*LangGraph, FastAPI, Next.js, Groq*  
+Repos: https://github.com/Rakshit-gen/API_Analyse | https://github.com/Rakshit-gen/api_analyse_fe
 
----
+**Aegis** — Autonomous code review agents  
+LLM-powered agents analyzing codebases for architecture, security, and quality issues.  
+*Python, FastAPI, Redis, Groq Llama 3.3*  
+Repos: https://github.com/Rakshit-gen/agent-prm | https://github.com/Rakshit-gen/agent-code-manage
 
-### 🧠 [SynthForce](https://synth-force-fe.vercel.app/) – Synthetic Workforce Startup Simulator
+**Slanine** — Production SaaS platform  
+25+ tools, Stripe payments, Redis caching, sub-200ms APIs.  
+*Next.js, PostgreSQL, Docker*  
+Repo: https://github.com/Rakshit-gen/Slanine
 
-Multi-agent AI system that simulates an entire startup workforce—CEO, PM, Engineering Lead, Designer, Sales, and Support—collaborating, debating, and generating complete MVP roadmaps. Supports real-time agent discussions, market “what-if” simulations, and persistent memory timelines powered by Groq-accelerated LLMs.
+**Qme** — Community platform  
+Posts, voting, media uploads with Redis caching (-42% load time).  
+*Next.js, Redis, MongoDB*  
+Repo: https://github.com/Rakshit-gen/Questme
 
-**Tech:** FastAPI, Groq API, MongoDB, WebSockets, Next.js 15, Clerk Auth, Shadcn UI, TailwindCSS, Zustand, Framer Motion
-
-**Repos:** [Backend](https://github.com/Rakshit-gen/SynthForce) | [Frontend](https://github.com/Rakshit-gen/SynthForce-fe)
-
----
-
-### 🛡️ [VantageEdge](https://vantageedge.vercel.app/) – Production-Ready API Gateway
-
-High-performance distributed gateway with <10ms p50 latency, real-time SSE-powered analytics dashboard, token-bucket rate limiting, and round-robin load balancing. Tracks p95 latency, cache hit ratio, and error rates in real-time.
-
-**Tech:** Go, Chi Router, Redis, PostgreSQL (Neon), Next.js, Shadcn UI, TanStack Query
-
-**Repos:** [Backend](https://github.com/Rakshit-gen/vantageEdge) | [Frontend](https://github.com/Rakshit-gen/vantageedge-fe)
-
----
-
-### 🧩 [SyncLayer](https://sync-layer.vercel.app/) – Real-Time Collaborative Task Board
-
-Production-grade collaborative board with WebSocket-powered multi-user editing, drag-and-drop workflows, and Redis Pub/Sub for real-time broadcast. Clean architecture with role-based UI enforcement and activity logging.
-
-**Tech:** Go (Fiber), PostgreSQL, Redis, WebSockets, Next.js, Zustand, TailwindCSS, shadcn UI
-
-**Repos:** [Backend](https://github.com/Rakshit-gen/SyncLayer) | [Frontend](https://github.com/Rakshit-gen/SyncLayer-fe)
-
----
-
-### 🧠 [SentralQ](https://api-analyse-fe.vercel.app/) – AI-Powered API Debugger
-
-Multi-agent AI system that diagnoses API integration issues and suggests executable fixes in seconds. LangGraph-powered reasoning isolates auth errors, schema mismatches, and network faults with streaming responses.
-
-**Tech:** Next.js, LangGraph, TypeScript, Clerk Auth, Groq LLMs, FastAPI
-
-**Repos:** [Backend](https://github.com/Rakshit-gen/API_Analyse) | [Frontend](https://github.com/Rakshit-gen/api_analyse_fe)
-
----
-
-### 🤖 [Aegis](https://www.aegisagent.online) – Multi-Agentic Code Analysis Platform
-
-Autonomous AI agent system powered by Groq's Llama 3.3 70B for comprehensive codebase analysis and PR reviews. Scans repositories for architectural flaws, security vulnerabilities, and code quality issues. Reduces code review time by 60%.
-
-**Tech:** Python, FastAPI, Redis, Groq API (Llama 3.3 70B), Docker, Next.js, Shadcn UI
-
-**Repos:** [PR Review Agent](https://github.com/Rakshit-gen/agent-prm) | [Codebase Analyzer](https://github.com/Rakshit-gen/agent-code-manage)
-
----
-
-### 🎯 [Slanine](https://www.slanine.online/) – Full-Stack SaaS Platform
-
-Production SaaS with 25+ productivity tools, Stripe payments, and AI-powered features. Optimized PostgreSQL queries for <200ms API responses and implemented Redis caching for 3x faster page loads.
-
-**Tech:** Next.js, PostgreSQL, Stripe, GenAI APIs, Docker
-
-**Repo:** [Slanine](https://github.com/Rakshit-gen/Slanine)
-
----
-
-### 🗨️ [Qme](https://flyuphigh.vercel.app/) – Reddit-Style Community Platform
-
-Full-featured community platform with posts, voting, and media uploads. Integrated Redis caching to reduce page load times by 42% (from 2.1s to 1.2s average).
-
-**Tech:** Next.js, Redis, MongoDB, REST APIs
-
-**Repo:** [Qme](https://github.com/Rakshit-gen/Questme)
-
----
 
 
 ## Technical Arsenal
