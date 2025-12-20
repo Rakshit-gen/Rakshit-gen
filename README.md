@@ -44,7 +44,6 @@ What sets me apart: I focus on performance, clean architecture, and shipping fea
 
 <hr/>
 
-## Open Source Contributions
 ## Open Source Contributions (Selected)
 
 ### DeepSpeed (Microsoft Research)
