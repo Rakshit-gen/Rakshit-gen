@@ -33,14 +33,15 @@
 
 ## Who Am I?
 
-AI Backend Engineer who has built and operated microservices handling **1M+ events/day** and powering platforms with **50K+ daily active users**. I design and ship production systems in **Go** and **Python**, optimize queries over millions of records, and build APIs that stay fast under load.  
+AI Backend Engineer building and operating production systems handling **1M+ events/day** and **50K+ DAU**. I ship high-throughput services in **Go** and **Python**, optimize queries over millions of rows, and design APIs that stay fast under load.
 
-What sets me apart: I focus on performance, clean architecture, and shipping features that move real metrics—like cutting critical query times by **40%** and delivering gateways with **sub-50ms p50 latency**.
+Focused on **measurable impact**: ~**40%** query latency reductions and **sub-50ms p50** API gateways.  
+Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**, fixing real production issues in widely used systems.
 
-**Current focus:**
-- Distributed systems and high-throughput event pipelines  
-- Multi-agent AI systems for real products  
-- Deep performance tuning across DB, cache, and network layers  
+**Current focus**
+- Distributed systems and event pipelines  
+- Multi-agent AI for real products  
+- Performance tuning across DB, cache, and network layers
 
 <hr/>
 
