@@ -90,6 +90,12 @@ End-to-end system converting topics → scripts → voice → audio with async p
 *(FastAPI, Next.js, PostgreSQL, Redis, Qdrant, HuggingFace, GCP TTS)*  
 Demo: [Live](https://nervaai.vercel.app/) · Repo: [GitHub](https://github.com/Rakshit-gen/nerva)
 
+OpenSkill(Open Source) — Claude skill manager CLI Command-line tool for creating and managing Claude skills with AI-powered content generation. 
+Define reusable skill definitions that enhance Claude's capabilities. 
+*(Go, Cobra, Groq API, Next.js, Tailwind CSS)*
+Demo: [Live](https://openskill-five.vercel.app/) · Repo: [OpenSkill](https://github.com/Rakshit-gen/openskill) 
+
+
 **SynthForce** — Multi-agent startup simulator  
 AI agents collaborate to generate MVP roadmaps and market simulations in real time.  
 *(FastAPI, Groq, MongoDB, WebSockets, Next.js)*  
