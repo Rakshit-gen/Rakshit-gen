@@ -92,9 +92,8 @@ Demo: [Live](https://nervaai.vercel.app/) · Repo: [GitHub](https://github.com/R
 
 **OpenSkill** (**Open Source**) — Claude skill manager CLI Command-line tool 
 For creating and managing Claude skills with AI-powered content generation. 
-Define reusable skill definitions that enhance Claude's capabilities. 
-
-*(Go, Cobra CLI, multi-provider LLMs (Groq, OpenAI, Anthropic, Ollama), Next.js)*
+Define reusable skill definitions that enhance Claude's capabilities.
+*(Go, Cobra CLI, multi-provider LLMs (Groq, OpenAI, Anthropic, Ollama), Next.js)* //
 Demo: [Live](https://www.openskill.online/) · Repo: [OpenSkill](https://github.com/Rakshit-gen/openskill) 
 
 
