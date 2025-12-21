@@ -30,8 +30,6 @@
 
 
 
----
-
 ## Who Am I?
 
 AI Backend Engineer building and operating production systems handling **1M+ events/day** and **50M+ DAU**. I ship high-throughput services in **Go** and **Python**, optimize queries over millions of rows, and design APIs that stay fast under load.
