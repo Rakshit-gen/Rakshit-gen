@@ -76,7 +76,7 @@ Open-source scheduling infrastructure powering production teams and enterprises.
 
 - **Unblocked organization signup with pre-existing usernames**  
   Fixed a constraint in the org signup flow that prevented enterprise users from onboarding with reserved or existing handles.  
-  [PR #25941](https://github.com/calcom/cal.com/pull/25941) · **Merged**
+  [PR #25941](https://github.com/calcom/cal.com/pull/25941) · 🟣 **Merged**
 
 ---
 
