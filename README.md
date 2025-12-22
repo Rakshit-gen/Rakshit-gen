@@ -50,7 +50,7 @@ Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**,
 High-performance training infrastructure used at scale for large models.
 
 * **Fix Nebula checkpoint engine commit() API mismatch**
-  Resolved a runtime crash in NebulaCheckpointEngine caused by passing a raw tag string instead of a `CheckpointCommitInfo` object. Ensured compatibility across checkpoint engines without regression.
+  Resolved a runtime crash in NebulaCheckpointEngine caused by passing a raw tag string instead of a `CheckpointCommitInfo` object. Ensured compatibility across checkpoint engines without regression.  
   [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · **Merged**
 
 
