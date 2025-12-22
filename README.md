@@ -45,25 +45,23 @@ Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**,
 <hr/>
 
 ## Open Source Contributions (Selected)
-
 ### DeepSpeed (Microsoft Research)
 High-performance training infrastructure used at scale for large models.
 
-* **Fix Nebula checkpoint engine commit() API mismatch**
-  Resolved a runtime crash in NebulaCheckpointEngine caused by passing a raw tag string instead of a `CheckpointCommitInfo` object. Ensured compatibility across checkpoint engines without regression.  
+- **Fixed runtime crash in NebulaCheckpointEngine during checkpoint commit**  
+  Resolved an API mismatch by passing `CheckpointCommitInfo` instead of a raw tag string, unblocking Nebula-based checkpointing without breaking TorchCheckpointEngine.  
   [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · **Merged**
 
-
-- **Fix crash with PEFT / LoRA-wrapped Hugging Face models**  
-  Prevented runtime crashes when combining DeepSpeed attention with PEFT adapters.  
+- **Prevented runtime crash with PEFT / LoRA-wrapped Hugging Face models**  
+  Fixed an incompatibility between DeepSpeed attention and PEFT adapters that caused crashes during training initialization.  
   [PR #7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) · **Merged**
 
-- **Fix TypeError in sqrt LR scaling with dynamic batching**  
-  Restored correct learning-rate scaling and training stability under dynamic batch sizes.  
+- **Restored correct LR scaling under dynamic batching**  
+  Fixed `sqrt` computation on non-tensor inputs to prevent `TypeError` and training instability when using dynamic batch sizes.  
   [PR #7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) · **Merged**
 
-- **Fix NaN propagation in OneBitLamb optimizer (empty parameters)**  
-  Improved numerical stability for distributed optimizer edge cases with filtered parameter groups.  
+- **Prevented NaN propagation in OneBitLamb with empty parameter groups**  
+  Fixed an edge case in distributed optimization where filtered parameter sets caused numerical corruption.  
   [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · **Merged**
 
 ---
@@ -71,8 +69,8 @@ High-performance training infrastructure used at scale for large models.
 ### Cal.com
 Open-source scheduling infrastructure powering production teams and enterprises.
 
-- **Allow organizations to sign up with existing usernames**  
-  Unblocked enterprise onboarding and resolved production integration constraints.  
+- **Unblocked organization signup with pre-existing usernames**  
+  Fixed a constraint in the org signup flow that prevented enterprise users from onboarding with reserved or existing handles.  
   [PR #25941](https://github.com/calcom/cal.com/pull/25941) · **Merged**
 
 ---
@@ -80,11 +78,10 @@ Open-source scheduling infrastructure powering production teams and enterprises.
 ### LangGraph (LangChain AI)
 Framework for building and checkpointing agentic workflows.
 
-- **Preserve `StrEnum` types during checkpoint serialization**  
-  Ensured correct state recovery and reproducibility in long-running agent workflows.  
+- **Preserved `StrEnum` values during checkpoint serialization**  
+  Fixed enum coercion during state persistence to ensure correct recovery and reproducibility in long-running agent graphs.  
   [PR #6602](https://github.com/langchain-ai/langgraph/pull/6602) · **Under Review**
 
-<br/>
 
 ---
 
