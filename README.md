@@ -50,27 +50,24 @@ High-performance training infrastructure used at scale for large models.
 
 - **Fixed deadlocks in DecoupledCheckpointEngine during checkpointing failures**  
   Prevented indefinite training hangs by adding timeouts, process health checks, and robust cleanup logic, replacing unsafe assertions and ensuring checkpoint reliability even when subprocesses crash.  
-  [PR #7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) · **Merged**
+  [PR #7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) · 🟣 **Merged**
 
-- **Prevent NaN propagation in OneBitLamb with empty parameter tensors**  
+- **Prevented NaN propagation in OneBitLamb with empty parameter tensors**  
   Fixed a numerical edge case where `sqrt(numel)` caused `0.0/0.0 → NaN`, corrupting the global scaling coefficient and destabilizing all optimizer state; guarded the denominator to ensure safe scaling.  
-  [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · **Merged**
+  [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · 🟣 **Merged**
 
 - **Fixed runtime crash in NebulaCheckpointEngine during checkpoint commit**  
   Resolved an API mismatch by passing `CheckpointCommitInfo` instead of a raw tag string, unblocking Nebula-based checkpointing without breaking TorchCheckpointEngine.  
-  [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · **Merged**
+  [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · 🟣 **Merged**
 
 - **Prevented runtime crash with PEFT / LoRA-wrapped Hugging Face models**  
   Fixed an incompatibility between DeepSpeed attention and PEFT adapters that caused crashes during training initialization.  
-  [PR #7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) · **Merged**
+  [PR #7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) · 🟣 **Merged**
 
 - **Restored correct LR scaling under dynamic batching**  
   Fixed `sqrt` computation on non-tensor inputs to prevent `TypeError` and training instability when using dynamic batch sizes.  
-  [PR #7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) · **Merged**
+  [PR #7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) · 🟣 **Merged**
 
-- **Prevented NaN propagation in OneBitLamb with empty parameter groups**  
-  Fixed an edge case in distributed optimization where filtered parameter sets caused numerical corruption.  
-  [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · **Merged**
 
 ---
 
