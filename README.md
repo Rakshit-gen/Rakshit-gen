@@ -48,6 +48,11 @@ Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**,
 ### DeepSpeed (Microsoft Research)
 High-performance training infrastructure used at scale for large models.
 
+
+- **Prevent NaN propagation in OneBitLamb with empty parameter tensors**  
+  Fixed a numerical edge case where `sqrt(numel)` caused `0.0/0.0 → NaN`, corrupting the global scaling coefficient and destabilizing all optimizer state; guarded the denominator to ensure safe scaling.  
+  [PR #7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) · **Merged**
+
 - **Fixed runtime crash in NebulaCheckpointEngine during checkpoint commit**  
   Resolved an API mismatch by passing `CheckpointCommitInfo` instead of a raw tag string, unblocking Nebula-based checkpointing without breaking TorchCheckpointEngine.  
   [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · **Merged**
