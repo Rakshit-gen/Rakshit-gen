@@ -49,6 +49,11 @@ Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**,
 ### DeepSpeed (Microsoft Research)
 High-performance training infrastructure used at scale for large models.
 
+* **Fix Nebula checkpoint engine commit() API mismatch**
+  Resolved a runtime crash in NebulaCheckpointEngine caused by passing a raw tag string instead of a `CheckpointCommitInfo` object. Ensured compatibility across checkpoint engines without regression.
+  [PR #7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) · **Merged**
+
+
 - **Fix crash with PEFT / LoRA-wrapped Hugging Face models**  
   Prevented runtime crashes when combining DeepSpeed attention with PEFT adapters.  
   [PR #7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) · **Merged**
