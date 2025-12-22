@@ -48,6 +48,9 @@ Active open-source contributor to **DeepSpeed**, **Cal.com**, and **LangGraph**,
 ### DeepSpeed (Microsoft Research)
 High-performance training infrastructure used at scale for large models.
 
+- **Fixed deadlocks in DecoupledCheckpointEngine during checkpointing failures**  
+  Prevented indefinite training hangs by adding timeouts, process health checks, and robust cleanup logic, replacing unsafe assertions and ensuring checkpoint reliability even when subprocesses crash.  
+  [PR #7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) · **Merged**
 
 - **Prevent NaN propagation in OneBitLamb with empty parameter tensors**  
   Fixed a numerical edge case where `sqrt(numel)` caused `0.0/0.0 → NaN`, corrupting the global scaling coefficient and destabilizing all optimizer state; guarded the denominator to ensure safe scaling.  
