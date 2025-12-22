@@ -75,16 +75,6 @@ Open-source scheduling infrastructure powering production teams and enterprises.
 
 ---
 
-### LangGraph (LangChain AI)
-Framework for building and checkpointing agentic workflows.
-
-- **Preserved `StrEnum` values during checkpoint serialization**  
-  Fixed enum coercion during state persistence to ensure correct recovery and reproducibility in long-running agent graphs.  
-  [PR #6602](https://github.com/langchain-ai/langgraph/pull/6602) · **Under Review**
-
-
----
-
 ## Featured Projects
 
 **NevraAI** — AI-generated podcast pipeline  
