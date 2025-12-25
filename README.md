@@ -88,9 +88,8 @@ End-to-end system converting topics → scripts → voice → audio with async p
 Demo: [Live](https://nervaai.vercel.app/) · Repo: [GitHub](https://github.com/Rakshit-gen/nerva)
 
 **OpenSkill** (**Open Source**) — Claude skill manager CLI Command-line tool 
-For creating and managing Claude skills with AI-powered content generation. 
-Define reusable skill definitions that enhance Claude's capabilities.  
-*(Go, Cobra CLI, LLMs (Groq, OpenAI, Anthropic, Ollama), Next.js)*  
+CLI framework for defining reusable LLM skill modules with multi-provider support (Groq, OpenAI, Anthropic, Ollama). Built in Go with Cobra.  
+*(Go, Cobra CLI, LLMs (Groq, OpenAI, Anthropic, Ollama), Next.js)*    
 Demo: [Live](https://www.openskill.online/) · Repo: [OpenSkill](https://github.com/Rakshit-gen/openskill) 
 
 
