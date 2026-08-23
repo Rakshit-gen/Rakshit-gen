@@ -86,11 +86,6 @@ Vector database with HNSW indexing, product quantization, crash-safe WAL, mmap-b
 *(Go, HNSW, Raft, WAL, mmap, gRPC, REST, Prometheus, OpenTelemetry)*  
 Documentation: [Docs](https://nucladb-demo.onrender.com/docs) · Repo: [GitHub](https://github.com/Rakshit-gen/NuclaDB)
 
-**NevraAI** — AI-generated podcast pipeline  
-End-to-end system converting topics → scripts → voice → audio with async processing and vector search.  
-*(FastAPI, Next.js, PostgreSQL, Redis, Qdrant, HuggingFace, GCP TTS)*  
-Demo: [Live](https://nervaai.vercel.app/) · Repo: [GitHub](https://github.com/Rakshit-gen/nerva)
-
 **OpenSkill** (**Open Source**) — Claude skill manager CLI Command-line tool   
 CLI framework for defining reusable LLM skill modules with multi-provider support   
 *(Go, Cobra CLI, LLMs (Groq, OpenAI, Anthropic, Ollama), Next.js)*    
