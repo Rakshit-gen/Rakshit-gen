@@ -84,7 +84,7 @@ Open-source scheduling infrastructure powering production teams and enterprises.
 **NuclaDB** — Distributed vector search engine built from scratch in Go  
 Vector database with HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, tenant isolation, quotas, rate limiting, gRPC/REST APIs, and OpenTelemetry observability. Benchmarked directly against Qdrant using the same SIFT dataset and recall target.  
 *(Go, HNSW, Raft, WAL, mmap, gRPC, REST, Prometheus, OpenTelemetry)*  
-Demo: [Live](https://nucladb-demo.onrender.com/docs) · Repo: [GitHub](https://github.com/Rakshit-gen/NuclaDB)
+Documentation: [Docs](https://nucladb-demo.onrender.com/docs) · Repo: [GitHub](https://github.com/Rakshit-gen/NuclaDB)
 
 **NevraAI** — AI-generated podcast pipeline  
 End-to-end system converting topics → scripts → voice → audio with async processing and vector search.  
