@@ -28,16 +28,18 @@
 
 ## Who Am I?
 
-Applied AI engineer and backend systems builder. I ship production AI systems (RAG, LLM evaluation harnesses, agentic workflows) and the distributed backend infrastructure underneath them, in **Go and Python**, at **50M+ daily events** (Kafka/Pub/Sub into BigQuery, sub-30s end-to-end latency) for a platform serving **50M+ users**. I care about the number after the optimization, not the one before it:
+Applied AI engineer and backend systems builder. I ship production AI systems (RAG, LLM evaluation harnesses, agentic workflows) and the distributed backend infrastructure underneath them, in Go and Python. I built a document-intelligence layer end to end (signed uploads, virus scanning, PDF normalization, vector/graph ingestion) feeding a citation-enforced chat that refuses ungrounded answers, plus an LLM evaluation harness that scores production prompts against live data with AI-judge rubrics. I also moved 50M+ daily events through Kafka/Pub/Sub into BigQuery at sub-30s latency for a platform serving 50M+ users. I care about the number after the optimization, not the one before it:
 
-- **78%** search latency reduction (to under 280ms across 10M+ records) by partitioning indexes and rewriting high-cost queries
-- **42%** quiz response latency reduction (2.1s → 1.2s across 1M+ daily quizzes) via Redis pipelining in Go and Python
-- **100 req/sec sustained, 200-request bursts** load-tested on a Go API gateway I built from scratch (VantageEdge, below)
+* 78% search latency reduction (to under 280ms across 10M+ records) by partitioning indexes and rewriting high-cost queries
+* 42% quiz response latency reduction (2.1s → 1.2s across 1M+ daily quizzes) via Redis pipelining in Go and Python
+* 100 req/sec sustained, 200-request bursts load-tested on a Go API gateway I built from scratch (VantageEdge, below)
+* Migrated an eval system from ad-hoc scoring to a rubric-first architecture, 6 methodologies modeled as 34 competencies and 136 scored criteria
 
-Active open-source contributor to **DeepSpeed** (Microsoft Research) and **Cal.com**, fixing real bugs in codebases other people run in production, not toy issues.
+Also shipped an event-driven notification and AI coaching platform with idempotent queues, retries, and dead-letter handling for staged production rollout.
 
-**Focus:** vector search internals, distributed systems and event pipelines, multi-agent AI, performance tuning across DB/cache/network layers.
+Active open-source contributor to DeepSpeed (Microsoft Research) and Cal.com, fixing real bugs in codebases other people run in production, not toy issues.
 
+Focus: vector search internals, distributed systems and event pipelines, multi-agent AI, performance tuning across DB/cache/network layers.
 <hr/>
 
 ## Open Source Contributions (Selected)
