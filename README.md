@@ -1,5 +1,5 @@
 <h1 align="center">Rakshit Sisodiya</h1>
-<h3 align="center">Backend Engineer · Applied AI / RAG Systems</h3>
+<h3 align="center">Backend Engineer, Applied AI / RAG Systems</h3>
 
 <p align="center">
   <a href="https://rakshitsisodiya.xyz/">Portfolio</a> ·
@@ -12,20 +12,20 @@
 
 ## About
 
-I build production AI systems and the distributed backend infrastructure underneath them, in Go and Python.
+I build production AI systems and the backend infrastructure underneath them, mostly in Go and Python.
 
-At HSV Digital, I built a document-intelligence layer end to end (signed uploads, virus scanning, PDF normalization, vector/graph ingestion) feeding a citation-enforced chat that refuses ungrounded answers, plus an LLM evaluation harness that scores production prompts against live data with AI-judge rubrics. At Wayground, I moved 50M+ daily events through Kafka/Pub-Sub into BigQuery at sub-30s latency for a platform serving 50M+ users.
+At HSV Digital I built a document-intelligence layer end to end (signed uploads, virus scanning, PDF normalization, vector/graph ingestion), feeding a citation-enforced chat that refuses ungrounded answers. I also built an LLM evaluation harness that scores production prompts against live data using AI-judge rubrics. At Wayground I moved 50M+ daily events through Kafka/Pub-Sub into BigQuery at sub-30s latency, on a platform serving 50M+ users.
 
 Selected results:
 
 | Metric | Result |
 |---|---|
 | Search latency | 78% reduction, to under 280ms across 10M+ records |
-| Quiz response latency | 42% reduction, 2.1s → 1.2s across 1M+ daily quizzes |
+| Quiz response latency | 42% reduction, 2.1s to 1.2s across 1M+ daily quizzes |
 | API gateway throughput | 100 req/sec sustained, 200-req bursts, load-tested |
-| Evaluation architecture | Migrated to rubric-first scoring — 6 methodologies, 34 competencies, 136 criteria |
+| Evaluation architecture | Migrated to rubric-first scoring: 6 methodologies, 34 competencies, 136 criteria |
 
-I also ship open source: merged fixes to DeepSpeed (Microsoft Research) and Cal.com.
+I also ship open source, with merged fixes in DeepSpeed (Microsoft Research) and Cal.com.
 
 ---
 
@@ -35,7 +35,7 @@ I also ship open source: merged fixes to DeepSpeed (Microsoft Research) and Cal.
 | PR | Fix |
 |---|---|
 | [#7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) | Deadlock in checkpoint engine during subprocess failure |
-| [#7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) | NaN propagation in OneBitLamb from a `0/0` edge case |
+| [#7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) | NaN propagation in OneBitLamb from a 0/0 edge case |
 | [#7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) | Runtime crash in Nebula checkpoint commit (API mismatch) |
 | [#7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) | Crash in PEFT/LoRA-wrapped models during init |
 | [#7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) | Incorrect LR scaling under dynamic batching |
@@ -49,35 +49,40 @@ I also ship open source: merged fixes to DeepSpeed (Microsoft Research) and Cal.
 
 ## Projects
 
-**[NuclaDB](https://github.com/Rakshit-gen/NuclaDB)** — Vector search engine built from scratch in Go
-HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, per-shard Raft replication with automatic failover, gRPC/REST APIs, Prometheus/OpenTelemetry observability. Benchmarked against a live Qdrant instance: 99.7% recall@10 at 4.9K QPS, 53% less memory at comparable recall, methodology and full results (including where it loses) published in the repo.
-`Go · HNSW · Raft · WAL · gRPC · Prometheus` — [Live docs](https://nucladb-demo.onrender.com/docs)
+**[NuclaDB](https://github.com/Rakshit-gen/NuclaDB)**
+Vector search engine built from scratch in Go. HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, per-shard Raft replication with automatic failover, gRPC/REST APIs, Prometheus/OpenTelemetry observability. Benchmarked against a live Qdrant instance: 99.7% recall@10 at 4.9K QPS, 53% less memory at comparable recall. Full methodology and results, including where it loses, are published in the repo.
+`Go, HNSW, Raft, WAL, gRPC, Prometheus`
+[Live docs](https://nucladb-demo.onrender.com/docs)
 
-**[VantageEdge](https://github.com/Rakshit-gen/vantageEdge)** — Multi-tenant API gateway in Go
-Subdomain-based tenant routing, JWT/API-key auth, per-route rate limiting (load-tested at 100 req/sec sustained, 200-req bursts), per-route Redis cache policies, origin health checks, full OpenTelemetry instrumentation.
-`Go · Redis · PostgreSQL · OpenTelemetry` — [Live demo](https://vantageedge.vercel.app/)
+**[VantageEdge](https://github.com/Rakshit-gen/vantageEdge)**
+Multi-tenant API gateway in Go. Subdomain-based tenant routing, JWT/API-key auth, per-route rate limiting (load-tested at 100 req/sec sustained, 200-req bursts), per-route Redis cache policies, origin health checks, full OpenTelemetry instrumentation.
+`Go, Redis, PostgreSQL, OpenTelemetry`
+[Live demo](https://vantageedge.vercel.app/)
 
-**[Inferoute](https://github.com/Rakshit-gen/inferoute)** — OpenAI-compatible LLM inference gateway
-Health-checked failover across backends, unbuffered SSE streaming, semantic response caching backed by NuclaDB — 880x faster on a cache hit (0.8ms vs 706ms).
-`Go · Redis · NuclaDB · Prometheus`
+**[Inferoute](https://github.com/Rakshit-gen/inferoute)**
+OpenAI-compatible LLM inference gateway. Health-checked failover across backends, unbuffered SSE streaming, semantic response caching backed by NuclaDB, 880x faster on a cache hit (0.8ms vs 706ms).
+`Go, Redis, NuclaDB, Prometheus`
 
-**[OpenSkill](https://github.com/Rakshit-gen/openskill)** — CLI for managing reusable AI coding-agent skills
-Cross-provider (Claude, OpenAI, Groq, Ollama), sub-100ms local command resolution.
-`Go · Cobra CLI` — [Live](https://www.openskill.online/)
+**[OpenSkill](https://github.com/Rakshit-gen/openskill)**
+CLI for managing reusable AI coding-agent skills across providers (Claude, OpenAI, Groq, Ollama), with sub-100ms local command resolution.
+`Go, Cobra CLI`
+[Live](https://www.openskill.online/)
 
-**[SentralQ](https://github.com/Rakshit-gen/API_Analyse)** — Agentic API debugger
-Diagnoses auth, schema, and network failures with executable fixes.
-`LangGraph · FastAPI · Groq` — [Live](https://api-analyse-fe.vercel.app/)
+**[SentralQ](https://github.com/Rakshit-gen/API_Analyse)**
+Agentic API debugger that diagnoses auth, schema, and network failures with executable fixes.
+`LangGraph, FastAPI, Groq`
+[Live](https://api-analyse-fe.vercel.app/)
 
-**[SyncLayer](https://github.com/Rakshit-gen/SyncLayer)** — Real-time collaborative board
-Multi-user editing over WebSockets, Redis pub/sub, role-based access.
-`Go · PostgreSQL · Redis` — [Live](https://sync-layer.vercel.app/)
+**[SyncLayer](https://github.com/Rakshit-gen/SyncLayer)**
+Real-time collaborative board with multi-user editing over WebSockets, Redis pub/sub, and role-based access.
+`Go, PostgreSQL, Redis`
+[Live](https://sync-layer.vercel.app/)
 
 ---
 
 ## Stack
 
-**Backend:** Go, Python (FastAPI), TypeScript/Node (NestJS, Express) · REST, gRPC, WebSockets
+**Backend:** Go, Python (FastAPI), TypeScript/Node (NestJS, Express). REST, gRPC, WebSockets
 **Data:** PostgreSQL, Redis, MongoDB, OpenSearch, Qdrant, S3/R2/Supabase
 **Cloud/Infra:** AWS (EC2, S3), GCP (Cloud Run, Pub/Sub, BigQuery), Docker, GitHub Actions, OpenTelemetry, Prometheus
 **AI/ML:** RAG, embeddings, vector search (Qdrant, NuclaDB), LangGraph, multi-agent systems, LLM-as-judge evaluation
