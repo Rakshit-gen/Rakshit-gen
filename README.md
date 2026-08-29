@@ -4,7 +4,6 @@
 <p align="center">
   <a href="https://rakshitsisodiya.xyz/">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/rakshit-sisodiya/">LinkedIn</a> ·
-  <a href="https://github.com/Rakshit-gen">GitHub</a> ·
   <a href="https://leetcode.com/sisodiarakshit456/">LeetCode</a>
 </p>
 
