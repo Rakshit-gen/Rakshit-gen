@@ -62,6 +62,7 @@ Multi-tenant API gateway in Go. Subdomain-based tenant routing, JWT/API-key auth
 **[Inferoute](https://github.com/Rakshit-gen/inferoute)**
 OpenAI-compatible LLM inference gateway. Health-checked failover across backends, unbuffered SSE streaming, semantic response caching backed by NuclaDB, 880x faster on a cache hit (0.8ms vs 706ms).
 `Go, Redis, NuclaDB, Prometheus`
+[Live](https://inferoute-lime.vercel.app/)
 
 **[OpenSkill](https://github.com/Rakshit-gen/openskill)**
 CLI for managing reusable AI coding-agent skills across providers (Claude, OpenAI, Groq, Ollama), with sub-100ms local command resolution.
