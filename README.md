@@ -51,32 +51,32 @@ I also ship open source, with merged fixes in DeepSpeed (Microsoft Research) and
 
 **[NuclaDB](https://github.com/Rakshit-gen/NuclaDB)**
 Vector search engine built from scratch in Go. HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, per-shard Raft replication with automatic failover, gRPC/REST APIs, Prometheus/OpenTelemetry observability. Benchmarked against a live Qdrant instance: 99.7% recall@10 at 4.9K QPS, 53% less memory at comparable recall. Full methodology and results, including where it loses, are published in the repo.
-`Go, HNSW, Raft, WAL, gRPC, Prometheus`
+`Go, HNSW, Raft, WAL, gRPC, Prometheus`  
 [Live docs](https://nucladb-demo.onrender.com/docs)
 
 **[VantageEdge](https://github.com/Rakshit-gen/vantageEdge)**
 Multi-tenant API gateway in Go. Subdomain-based tenant routing, JWT/API-key auth, per-route rate limiting (load-tested at 100 req/sec sustained, 200-req bursts), per-route Redis cache policies, origin health checks, full OpenTelemetry instrumentation.
-`Go, Redis, PostgreSQL, OpenTelemetry`
+`Go, Redis, PostgreSQL, OpenTelemetry`  
 [Live demo](https://vantageedge.vercel.app/)
 
 **[Inferoute](https://github.com/Rakshit-gen/inferoute)**
 OpenAI-compatible LLM inference gateway. Health-checked failover across backends, unbuffered SSE streaming, semantic response caching backed by NuclaDB, 880x faster on a cache hit (0.8ms vs 706ms).
-`Go, Redis, NuclaDB, Prometheus`
+`Go, Redis, NuclaDB, Prometheus`  
 [Live](https://inferoute-lime.vercel.app/)
 
 **[OpenSkill](https://github.com/Rakshit-gen/openskill)**
 CLI for managing reusable AI coding-agent skills across providers (Claude, OpenAI, Groq, Ollama), with sub-100ms local command resolution.
-`Go, Cobra CLI`
+`Go, Cobra CLI`  
 [Live](https://www.openskill.online/)
 
 **[SentralQ](https://github.com/Rakshit-gen/API_Analyse)**
 Agentic API debugger that diagnoses auth, schema, and network failures with executable fixes.
-`LangGraph, FastAPI, Groq`
+`LangGraph, FastAPI, Groq`  
 [Live](https://api-analyse-fe.vercel.app/)
 
 **[SyncLayer](https://github.com/Rakshit-gen/SyncLayer)**
 Real-time collaborative board with multi-user editing over WebSockets, Redis pub/sub, and role-based access.
-`Go, PostgreSQL, Redis`
+`Go, PostgreSQL, Redis`  
 [Live](https://sync-layer.vercel.app/)
 
 ---
