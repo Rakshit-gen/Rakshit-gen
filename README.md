@@ -51,7 +51,7 @@ I also ship open source, with merged fixes in DeepSpeed (Microsoft Research) and
 **[NuclaDB](https://github.com/Rakshit-gen/NuclaDB)**
 Vector search engine built from scratch in Go. HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, per-shard Raft replication with automatic failover, gRPC/REST APIs, Prometheus/OpenTelemetry observability. Benchmarked against a live Qdrant instance: 99.7% recall@10 at 4.9K QPS, 53% less memory at comparable recall. Full methodology and results, including where it loses, are published in the repo.
 `Go, HNSW, Raft, WAL, gRPC, Prometheus`  
-[Live docs](https://nucladb-demo.onrender.com/docs)
+[Live](https://nucladb-web.vercel.app/)
 
 **[VantageEdge](https://github.com/Rakshit-gen/vantageEdge)**
 Multi-tenant API gateway in Go. Subdomain-based tenant routing, JWT/API-key auth, per-route rate limiting (load-tested at 100 req/sec sustained, 200-req bursts), per-route Redis cache policies, origin health checks, full OpenTelemetry instrumentation.
