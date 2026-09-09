@@ -60,63 +60,57 @@ I also contribute to open source, with merged fixes in Hugging Face Accelerate, 
 
 ### [Auralis](https://github.com/Rakshit-gen/auralis)
 
-Serialized-audio streaming platform built as 8 independently deployable Go/Python services. Uses database-per-service isolation, transactional outbox with Kafka events, and direct object-storage HLS streaming. Includes an asynchronous AI pipeline for story generation, neural narration, and adaptive bitrate packaging.
+Distributed audio streaming platform built as 8 independently deployable Go/Python services with database-per-service isolation, event-driven architecture, transactional outbox, Kafka, asynchronous workers, and direct object-storage HLS streaming. Includes an AI media pipeline for story generation, neural TTS, FFmpeg processing, adaptive bitrate streaming, and recommendation read models rebuilt through event replay.
 
-`Go, Python, Kafka, PostgreSQL, Redis, S3/R2, HLS`
+`Go, Python, Distributed Systems, Microservices, Kafka, PostgreSQL, Redis, HLS, S3/R2, AI/ML`
 
 [Live](https://auralis-web-topaz.vercel.app/)
 
 ### [NuclaDB](https://github.com/Rakshit-gen/NuclaDB)
 
-Vector search engine built from scratch in Go. HNSW indexing, product quantization, crash-safe WAL, mmap-backed snapshots, per-shard Raft replication with automatic failover, gRPC/REST APIs, and Prometheus/OpenTelemetry observability.
+Distributed vector database built from scratch in Go with HNSW indexing, product quantization, crash-safe WAL, mmap-backed storage, per-shard Raft replication, automatic failover, and gRPC/REST APIs. Benchmarked against a live Qdrant instance at 99.7% recall@10 and 4.9K QPS with 53% less memory at comparable recall.
 
-Benchmarked against a live Qdrant instance at 99.7% recall@10 and 4.9K QPS with 53% less memory at comparable recall. Full methodology and results, including where it loses, are published in the repository.
-
-`Go, HNSW, Raft, WAL, gRPC, Prometheus`
+`Go, Distributed Systems, Vector Database, HNSW, Raft, WAL, mmap, gRPC, Prometheus`
 
 [Live](https://nucladb-web.vercel.app/)
 
 ### [VantageEdge](https://github.com/Rakshit-gen/vantageEdge)
 
-Multi-tenant API gateway in Go with subdomain-based tenant routing, JWT/API-key authentication, per-route rate limiting, Redis caching policies, origin health checks, and OpenTelemetry instrumentation.
+Production-style multi-tenant API gateway in Go with distributed request routing, JWT/API-key authentication, per-route rate limiting, Redis-backed caching, origin health checks, and end-to-end OpenTelemetry instrumentation. Load-tested at 100 req/sec sustained with 200-req bursts.
 
-Load-tested at 100 req/sec sustained with 200-req bursts.
-
-`Go, Redis, PostgreSQL, OpenTelemetry`
+`Go, Distributed Systems, API Gateway, Redis, PostgreSQL, Rate Limiting, OpenTelemetry`
 
 [Live](https://vantageedge.vercel.app/)
 
 ### [Inferoute](https://github.com/Rakshit-gen/inferoute)
 
-OpenAI-compatible LLM inference gateway with health-checked backend failover, unbuffered SSE streaming, semantic response caching backed by NuclaDB, and Prometheus metrics.
+OpenAI-compatible LLM inference gateway with health-checked model routing, automatic backend failover, unbuffered SSE streaming, semantic response caching backed by NuclaDB, and Prometheus observability. Cache hits measured at 0.8ms versus 706ms for uncached requests.
 
-Cache hits are 880x faster than uncached requests, measured at 0.8ms vs 706ms.
-
-`Go, Redis, NuclaDB, Prometheus`
+`Go, AI Infrastructure, LLM Gateway, Model Routing, SSE, Redis, Vector Search, Prometheus`
 
 [Live](https://inferoute-lime.vercel.app/)
 
 ### [OpenSkill](https://github.com/Rakshit-gen/openskill)
 
-CLI for managing reusable AI coding-agent skills across Claude, OpenAI, Groq, and Ollama, with sub-100ms local command resolution.
+CLI for managing reusable AI coding-agent skills across Claude, OpenAI, Groq, and Ollama, with provider abstraction and sub-100ms local command resolution.
 
-`Go, Cobra CLI`
+`Go, AI Infrastructure, CLI, Provider Abstraction, Cobra`
 
 [Live](https://www.openskill.online/)
 
 ### [SentralQ](https://github.com/Rakshit-gen/API_Analyse)
 
-Agentic API debugger that diagnoses authentication, schema, and network failures and generates executable fixes.
+Agentic API debugger that combines LLM reasoning with executable diagnostics to identify authentication, schema, and network failures and generate fixes.
 
-`LangGraph, FastAPI, Groq`
+`Python, FastAPI, AI Agents, LangGraph, LLMs, Tool Calling, Groq`
 
 [Live](https://api-analyse-fe.vercel.app/)
 
 ### [SyncLayer](https://github.com/Rakshit-gen/SyncLayer)
 
-Real-time collaborative board with multi-user editing over WebSockets, Redis Pub/Sub, and role-based access control.
+Real-time distributed collaboration system with multi-user editing over WebSockets, Redis Pub/Sub for cross-instance event propagation, PostgreSQL persistence, and role-based access control.
 
-`Go, PostgreSQL, Redis`
+`Go, Distributed Systems, WebSockets, Redis Pub/Sub, PostgreSQL, Concurrency`
 
 [Live](https://sync-layer.vercel.app/)
 
