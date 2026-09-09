@@ -108,9 +108,9 @@ Agentic API debugger that combines LLM reasoning with executable diagnostics to 
 
 ### [SyncLayer](https://github.com/Rakshit-gen/SyncLayer)
 
-Real-time distributed collaboration system with multi-user editing over WebSockets, Redis Pub/Sub for cross-instance event propagation, PostgreSQL persistence, and role-based access control.
+Real-time collaboration system with multi-user editing over WebSockets, Redis Pub/Sub for cross-instance event propagation, PostgreSQL persistence, and role-based access control.
 
-`Go, Distributed Systems, WebSockets, Redis Pub/Sub, PostgreSQL, Concurrency`
+`Go, WebSockets, Redis Pub/Sub, PostgreSQL, Concurrency`
 
 [Live](https://sync-layer.vercel.app/)
 
