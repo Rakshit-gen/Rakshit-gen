@@ -1,125 +1,122 @@
 <h1 align="center">Rakshit Sisodiya</h1>
-<h3 align="center">Backend Engineer, Applied AI / RAG Systems</h3>
+<p align="center">Backend engineer working on distributed systems and applied AI</p>
 
 <p align="center">
-  <a href="https://rakshitsisodiya.xyz/">Portfolio</a> ·
+  <a href="https://rakshitsisodiya.xyz/one">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/rakshit-sisodiya/">LinkedIn</a> ·
-  <a href="https://leetcode.com/sisodiarakshit456/">LeetCode</a>
+  <a href="https://leetcode.com/sisodiarakshit456/">LeetCode</a> ·
+  <a href="mailto:sisodiarakshit456@gmail.com">Email</a>
 </p>
-
-<br/>
 
 ## About
 
-I build production AI systems and the backend infrastructure underneath them, mostly in Go and Python.
+I work on backend services, event pipelines, and AI applications. Most of my work uses Go, Python, and TypeScript.
 
-At HSV Digital I built a document-intelligence layer end to end, including signed uploads, virus scanning, PDF normalization, vector and graph ingestion, and a citation-enforced chat system that refuses ungrounded answers. I also built an LLM evaluation harness that scores production prompts against live data using AI-judge rubrics.
+At HSV Digital, I built the document pipeline behind an AI sales-coaching product: signed uploads, virus scanning, PDF processing, and ingestion for retrieval. I also worked on chat citations, checks for unsupported answers, and an evaluation harness for testing prompts against product data.
 
-At Wayground I worked on event infrastructure moving 50M+ daily events through Kafka/Pub/Sub into BigQuery at sub-30s latency on a platform serving 50M+ users.
+At Wayground, I worked on an analytics pipeline moving 50M+ events a day through Kafka and Pub/Sub into BigQuery, with end-to-end latency under 30 seconds. My work also included search across 10M+ records and quiz-response performance.
 
-Selected results:
+Outside work, I build tools to learn how their internals work and contribute fixes to open-source projects.
 
-| Metric | Result |
-|---|---|
-| Search latency | 78% reduction, under 280ms across 10M+ records |
-| Quiz response latency | 42% reduction, 2.1s to 1.2s across 1M+ daily quizzes |
-| API gateway throughput | 100 req/sec sustained, 200-req bursts, load-tested |
-| Evaluation architecture | 6 methodologies, 34 competencies, 136 criteria |
+## Open source
 
-I also contribute to open source, with merged fixes in Hugging Face Accelerate, DeepSpeed, and Cal.com.
+Selected merged pull requests. Each link includes the change and review discussion.
 
----
+| Project | PR | Change |
+| --- | --- | --- |
+| DeepSpeed | [#8758](https://github.com/deepspeedai/DeepSpeed/pull/8758) | Fixed an indexing error when DataAnalyzer runs a selected subset of workers. |
+| DeepSpeed | [#8421](https://github.com/deepspeedai/DeepSpeed/pull/8421) | Skipped missing metrics when selecting the best autotuning result. |
+| DeepSpeed | [#7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) | Added bounded waits and cleanup for checkpoint subprocess failures. |
+| DeepSpeed | [#7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) | Prevented empty parameters from introducing NaNs into OneBitLamb scaling. |
+| DeepSpeed | [#7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) | Passed the expected commit-info object to the Nebula checkpoint engine. |
+| DeepSpeed | [#7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) | Fixed model-config handling for PEFT-wrapped models. |
+| DeepSpeed | [#7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) | Fixed a float/Tensor mismatch in dynamic-batch learning-rate scaling. |
+| Expo | [#49302](https://github.com/expo/expo/pull/49302) | Fixed a CORS hostname regex accepting non-loopback hosts. |
+| Expo | [#49305](https://github.com/expo/expo/pull/49305) | Used UTF-8 byte length for the inspector response's Content-Length. |
+| Hugging Face Accelerate | [#4217](https://github.com/huggingface/accelerate/pull/4217) | Restored RNG state independently for available accelerator backends. |
+| Cal.com / Cal.diy | [#25941](https://github.com/calcom/cal.diy/pull/25941) | Scoped signup username checks to the organization. |
 
-## Open Source Contributions
+<details>
+<summary>Currently open DeepSpeed PRs</summary>
 
-### Hugging Face Accelerate
+| PR | Proposed change |
+| --- | --- |
+| [#8788](https://github.com/deepspeedai/DeepSpeed/pull/8788) | Save and restore the data sampler's own RNG state when resuming training. |
+| [#8751](https://github.com/deepspeedai/DeepSpeed/pull/8751) | Preserve each parameter group's beta2 in OneCycle. |
+| [#8753](https://github.com/deepspeedai/DeepSpeed/pull/8753) | Make the initial learning rate available before OneCycle's first step. |
+| [#8755](https://github.com/deepspeedai/DeepSpeed/pull/8755) | Report a clear error when --exclude removes every launch slot. |
 
-| PR | Fix |
-|---|---|
-| [#4217](https://github.com/huggingface/accelerate/pull/4217) | Fixed checkpoint RNG state restoration across multiple accelerator backends and added regression coverage |
-
-### DeepSpeed
-
-| PR | Fix |
-|---|---|
-| [#7742](https://github.com/deepspeedai/DeepSpeed/pull/7742) | Deadlock in checkpoint engine during subprocess failure |
-| [#7736](https://github.com/deepspeedai/DeepSpeed/pull/7736) | NaN propagation in OneBitLamb from a 0/0 edge case |
-| [#7740](https://github.com/deepspeedai/DeepSpeed/pull/7740) | Runtime crash in Nebula checkpoint commit from an API mismatch |
-| [#7737](https://github.com/deepspeedai/DeepSpeed/pull/7737) | Crash in PEFT/LoRA-wrapped models during initialization |
-| [#7735](https://github.com/deepspeedai/DeepSpeed/pull/7735) | Incorrect learning-rate scaling under dynamic batching |
-
-### Cal.com
-
-| PR | Fix |
-|---|---|
-| [#25941](https://github.com/calcom/cal.com/pull/25941) | Organization signup blocked by a pre-existing username constraint |
-
----
+</details>
 
 ## Projects
 
-### [Auralis](https://github.com/Rakshit-gen/auralis)
-
-Distributed audio streaming platform built as 8 independently deployable Go/Python services with database-per-service isolation, event-driven architecture, transactional outbox, Kafka, asynchronous workers, and direct object-storage HLS streaming. Includes an AI media pipeline for story generation, neural TTS, FFmpeg processing, adaptive bitrate streaming, and recommendation read models rebuilt through event replay.
-
-`Go, Python, Distributed Systems, Microservices, Kafka, PostgreSQL, Redis, HLS, S3/R2, AI/ML`
-
-[Live](https://auralis-web-topaz.vercel.app/)
-
 ### [NuclaDB](https://github.com/Rakshit-gen/NuclaDB)
 
-Distributed vector database built from scratch in Go with HNSW indexing, product quantization, crash-safe WAL, mmap-backed storage, per-shard Raft replication, automatic failover, and gRPC/REST APIs. Benchmarked against a live Qdrant instance at 99.7% recall@10 and 4.9K QPS with 53% less memory at comparable recall.
+A vector search engine written in Go, with HNSW indexing, a write-ahead log, mmap snapshots, tenant isolation, and gRPC/REST APIs.
 
-`Go, Distributed Systems, Vector Database, HNSW, Raft, WAL, mmap, gRPC, Prometheus`
+The repository also includes product quantization and Raft-based sharding packages, tested separately. Neither is wired into the running server yet.
 
-[Live](https://nucladb-web.vercel.app/)
+On a 10,000-vector SIFT benchmark at efSearch=50: **10.7K queries/s, 0.996 recall@10, and about 46 MB RSS**. Qdrant used about 115 MB in the same comparison. Results use the median of five measured passes.
+
+[Demo](https://nucladb-web.vercel.app/) · [Benchmark details](https://github.com/Rakshit-gen/NuclaDB/blob/main/bench/results.md)
 
 ### [VantageEdge](https://github.com/Rakshit-gen/vantageEdge)
 
-Production-style multi-tenant API gateway in Go with distributed request routing, JWT/API-key authentication, per-route rate limiting, Redis-backed caching, origin health checks, and end-to-end OpenTelemetry instrumentation. Load-tested at 100 req/sec sustained with 200-req bursts.
+A Go API gateway that routes requests by tenant and path. Routes have their own authentication, rate limits, cache settings, and origin pools. The control plane pushes configuration changes to gateway instances over gRPC.
 
-`Go, Distributed Systems, API Gateway, Redis, PostgreSQL, Rate Limiting, OpenTelemetry`
+Local benchmarks measured **about 70K req/s for passthrough**, 37K for Redis cache hits, and 16K with Redis rate limiting. Passthrough added about 0.5ms p50 over a direct origin call. The gateway, load generator, mock origin, PostgreSQL, and Redis shared one 10-core machine.
 
-[Live](https://vantageedge.vercel.app/)
+[Demo](https://vantageedge.vercel.app/) · [Benchmark details](https://github.com/Rakshit-gen/vantageEdge#performance)
 
-### [Inferoute](https://github.com/Rakshit-gen/inferoute)
+### [inferoute](https://github.com/Rakshit-gen/inferoute)
 
-OpenAI-compatible LLM inference gateway with health-checked model routing, automatic backend failover, unbuffered SSE streaming, semantic response caching backed by NuclaDB, and Prometheus observability. Cache hits measured at 0.8ms versus 706ms for uncached requests.
+A Go gateway for OpenAI-compatible LLM endpoints. It routes by model, retries healthy backends after failures, forwards SSE chunks as they arrive, and supports rate limiting and a NuclaDB-backed response cache.
 
-`Go, AI Infrastructure, LLM Gateway, Model Routing, SSE, Redis, Vector Search, Prometheus`
+Cache hits averaged **0.8ms** in a local test. Misses averaged 706ms against a mock backend with an artificial 700ms delay.
 
-[Live](https://inferoute-lime.vercel.app/)
+[Demo](https://inferoute-lime.vercel.app/) · [Benchmark details](https://github.com/Rakshit-gen/inferoute#benchmarks)
 
-### [OpenSkill](https://github.com/Rakshit-gen/openskill)
+### [Auralis](https://github.com/Rakshit-gen/auralis)
 
-CLI for managing reusable AI coding-agent skills across Claude, OpenAI, Groq, and Ollama, with provider abstraction and sub-100ms local command resolution.
+An audio streaming platform with eight Go/Python services for accounts, content, playback, recommendations, audio generation, and analytics.
 
-`Go, AI Infrastructure, CLI, Provider Abstraction, Cobra`
+State changes and their events are written together through a transactional outbox, then relayed to Kafka. Audio streams from object storage as HLS. The generation pipeline writes scripts, synthesizes speech, and packages audio with FFmpeg.
 
-[Live](https://www.openskill.online/)
+[Demo](https://auralis-web-topaz.vercel.app/) · [Architecture](https://github.com/Rakshit-gen/auralis/blob/master/docs/ARCHITECTURE.md)
 
-### [SentralQ](https://github.com/Rakshit-gen/API_Analyse)
+<details>
+<summary>More projects</summary>
 
-Agentic API debugger that combines LLM reasoning with executable diagnostics to identify authentication, schema, and network failures and generate fixes.
+#### [OpenSkill](https://github.com/Rakshit-gen/openskill)
 
-`Python, FastAPI, AI Agents, LangGraph, LLMs, Tool Calling, Groq`
+A Go CLI for creating, editing, validating, and versioning AI coding-agent skills. Skills are stored as Markdown files. Generation supports OpenAI, Anthropic, Groq, and Ollama.
 
-[Live](https://api-analyse-fe.vercel.app/)
+[Website](https://www.openskill.online/)
 
----
+#### [SentralQ](https://github.com/Rakshit-gen/API_Analyse)
+
+A FastAPI/LangGraph application for investigating API errors. It examines requests, responses, authentication, and schemas, and returns suggested fixes. Tools support HTTP requests and JWT inspection.
+
+[Demo](https://api-analyse-fe.vercel.app/)
+
+</details>
 
 ## Stack
 
-**Backend:** Go, Python, FastAPI, TypeScript, Node.js, NestJS, Express  
-**APIs:** REST, gRPC, WebSockets, SSE  
-**Data:** PostgreSQL, Redis, MongoDB, OpenSearch, Qdrant, S3, R2, Supabase  
-**Messaging:** Kafka, Pub/Sub  
-**Cloud/Infra:** AWS, GCP, Docker, GitHub Actions, OpenTelemetry, Prometheus  
-**AI/ML:** RAG, embeddings, vector search, LangGraph, multi-agent systems, LLM evaluation  
-**LLM Providers:** OpenAI, Anthropic, Groq, Ollama
+| Area | Tools |
+| --- | --- |
+| Languages | Go, Python, TypeScript, SQL |
+| Backend | NestJS, FastAPI, Node.js, REST, gRPC |
+| Data and messaging | PostgreSQL, Redis, MongoDB, OpenSearch, Kafka, Pub/Sub |
+| Infrastructure | AWS, GCP, Docker, GitHub Actions, OpenTelemetry, Prometheus |
+| Applied AI | Retrieval, embeddings, vector search, LangGraph, prompt evaluation |
 
----
+<details>
+<summary>GitHub activity</summary>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true" alt="GitHub activity graph" width="800"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rakshit-gen&theme=react-dark&hide_border=true" alt="Rakshit's GitHub contribution activity" width="800" />
 </p>
+
+</details>
+
